@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 135 30" style="enable-background:new 0 0 135 30;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F0F0F0;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{display:none;clip-path:url(#SVGID_2_);}
+	.st3{opacity:0.5;clip-path:url(#SVGID_2_);fill:#1D1D1B;}
+	.st4{display:none;}
+	.st5{fill:#58595D;}
+	.st6{opacity:0.6;fill:url(#SVGID_3_);}
+	.st7{fill:#FFFFFF;}
+	.st8{fill:#2A2A2C;}
+	.st9{fill:#D73534;}
+	.st10{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st11{fill:#EDEDED;}
+	.st12{fill:#BF835F;}
+	.st13{fill:#2897D4;}
+	.st14{fill:#36639D;}
+	.st15{fill:#314D79;}
+	.st16{opacity:0.4;fill:url(#SVGID_8_);}
+	.st17{fill:none;stroke:#D73534;stroke-miterlimit:10;}
+	.st18{opacity:0.2;fill:#58595D;}
+	.st19{fill:#DADADA;}
+	.st20{display:inline;}
+	.st21{opacity:0.2;fill:#E50051;}
+</style>
+<g id="BG">
+</g>
+<g id="wirefrime">
+	<g>
+		<g>
+			<path class="st9" d="M75.881,9.548v9.508h5.891v1.696h-7.715V9.548H75.881z"/>
+			<path class="st9" d="M85.178,9.548v11.204h-1.825V9.548H85.178z"/>
+			<path class="st9" d="M87.896,20.752V9.548h1.824v4.674h2.209l3.122-4.674h2.064l-3.714,5.458l4.002,5.746H95.34l-3.377-4.85
+				h-2.242v4.85H87.896z"/>
+			<path class="st9" d="M106.459,9.548v1.664h-5.891v3.058h5.411v1.664h-5.411v3.153h5.987v1.665h-7.812V9.548H106.459z"/>
+		</g>
+		<path class="st9" d="M133,0H45H2C1.586,0,1.201,0.126,0.882,0.342C0.35,0.701,0,1.31,0,2v26c0,1.104,0.895,2,2,2h43v0h88
+			c1.104,0,2-0.895,2-2V2C135,0.896,134.104,0,133,0z M31.35,15.514c-0.676,1.093-2.452,3.195-4.321,5.112
+			c-2.282,2.341-3.803,3.528-4.521,3.528c-0.282,0-0.758-0.127-1.95-1.116c-0.72-0.598-1.609-1.434-2.572-2.418
+			c-1.885-1.927-3.669-4.026-4.337-5.105c-0.863-1.393-1.214-2.667-1.141-4.132c0.074-1.47,0.66-2.853,1.652-3.892
+			c1.011-1.061,2.334-1.645,3.724-1.645c2.158,0,3.664,1.219,4.387,1.805c0.079,0.064,0.169,0.137,0.24,0.192
+			c0.09-0.064,0.212-0.159,0.317-0.24c0.792-0.614,2.264-1.756,4.286-1.756c1.39,0,2.713,0.584,3.724,1.645
+			c0.991,1.039,1.577,2.421,1.651,3.892C32.585,13.256,31.931,14.575,31.35,15.514z M134,28c0,0.551-0.448,1-1,1H46V1h87
+			c0.552,0,1,0.449,1,1V28z"/>
+	</g>
+</g>
+<g id="Grids" class="st4">
+</g>
+</svg>
