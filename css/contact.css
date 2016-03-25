@@ -1,0 +1,732 @@
+/*Header*/
+
+.header-container {
+	position: fixed;
+	width: 100%;
+	height: 75px;
+	background-color: rgb(88, 89, 93);
+	display: inline-block;
+
+}
+
+
+.avatar-box {
+	position: absolute;
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	padding-left: 50px;
+
+}
+
+img.avatar {
+	border: 1px solid white;
+	border-radius: 1000px;
+	margin: 11px 0px;
+}
+
+.avatar {
+	margin: 0;
+	padding: 0;
+	width: 53px;
+	height: 53px;
+
+}
+
+.avatar-text {
+	margin: 17.5px 0px 17.5px 10px;
+	text-transform: uppercase;
+	font-family: "Muller-Regular";
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+	position: absolute;
+	display: inline-block;
+}
+
+.header-menu-box {
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	width: 60%;
+	height: 100%;
+	left: 20%;
+}
+
+.header-menu {
+	margin: 0;
+    padding: 13px 0px 0px 0px;
+	display: inline-block;
+}
+
+.header-menu li {
+	padding: 0px 15px 0px 15px;
+}
+
+.header-menu li {
+	margin: 0;
+	display: inline-block;
+	height: 62px;
+}
+
+.header-menu a {
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgb(42, 42, 44);
+	font-size: 10px;
+	font-family: "Muller-Regular";
+	display: block;
+	padding-top: 12px;
+	height: 28px;
+
+}
+
+li:hover a {
+	color: white;
+}
+
+/*Icons on header*/
+
+.icon-home {
+	font-size: 25px;
+	color: rgb(42, 42, 44);
+	display: block;
+}
+
+.icon-ui {
+	font-size: 25px;
+	color: rgb(42, 42, 44);
+	display: block;
+}
+
+.icon-web {
+	font-size: 25px;
+	color: rgb(42, 42, 44);
+	display: block;
+}
+
+.icon-frontend {
+	font-size: 25px;
+	color: rgb(42, 42, 44);
+	display: block;	
+}
+
+.icon-logo {
+	font-size: 25px;
+	color: rgb(42, 42, 44);
+	display: block;
+}
+
+.icon-other {
+	font-size: 25px;
+	color: rgb(42, 42, 44);
+	display: block;
+}
+
+.icon-contact {
+	font-size: 25px;
+	color: white;
+	display: block;
+}
+
+.icon-menu {
+	font-size: 25px;
+	color: white;
+	display: none;
+	position: absolute;
+	right: 50px;
+	padding: 25px 0px 25px 0px;
+	position: fixed;
+}
+
+.icon-other:hover {
+	color: white;
+}
+.icon-contact:hover {
+	color: white;
+}
+.icon-frontend:hover {
+	color: white;
+}
+.icon-home:hover {
+	color: white;
+}
+.icon-logo:hover {
+	color: white;
+}
+.icon-ui:hover {
+	color: white;
+}
+.icon-web:hover {
+	color: white;
+}
+
+
+.icon-contact a {
+	font-family: "Muller-Medium";
+	color: white;
+}
+
+
+.write-me-button-container {
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	height: 100%;
+	right: 0;
+	padding-right: 50px;
+}
+
+.write-me-button {
+	width: 145px;
+	height: 30px;
+	margin: 22.5px 0px;
+	border-radius: 2px;
+	border: 1px solid rgb(255, 255, 255);
+	transition: 0.35s;
+	position: absolute;
+	right: 50px;
+
+}
+
+.write-me {
+	padding: 10px 40.5px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: "Muller-Regular";
+	line-height: 30px;
+	color: rgb(255, 255, 255);
+}
+
+.write-me:hover {
+	color: rgb(42, 42, 44);
+	text-decoration: none;
+}
+
+.write-me-button:hover {
+	border-radius: 2px;
+	border: 1px solid rgb(255, 255, 255);
+	border-color: rgb(255, 255, 255);
+	background-color: rgb(255, 255, 255);	
+}
+
+.header-download-line {
+	width: 100%;
+	height: 3px;
+	background-color: rgb(42, 42, 44);
+    position: fixed;
+    transform: translateY(75px);
+}
+
+/*Small Screen*/
+
+
+.fade-menu2 {
+	display: block;
+	height: 400px;
+}
+
+.header-menu-box2 {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    transform: translateY(75px);
+    height: 0;
+    background-color: rgb(112, 113, 118);
+    overflow: hidden;
+    -webkit-transition: height ease-out 0.3s;
+     -moz-transition: height ease-out 0.3s;
+     -o-transition: height ease-out 0.3s;
+     transition: height ease-out 0.3s;
+}
+
+.header-menu2 {
+    padding: 0;
+    display: block;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+
+.header-menu2 li {
+	display: block;
+	height: 50px;
+	border-bottom: 1px solid rgb(88, 89, 93);
+}
+
+.header-menu2 a {
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(42, 42, 44);
+    font-size: 10px;
+    font-family: "Muller-Light";
+    display: inline-block;
+    padding: 14.5px 110px 14.5px 110px;
+}
+
+.write-me-button2 {
+	background-color: rgb(88, 89, 93);
+}
+
+
+
+/*Cover Box*/
+
+.cover-box {
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+
+iframe {
+	display: inline-block;
+    width: 100%;
+}
+
+
+
+/*About Me*/
+
+.about-me-container {
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	display: block;
+	padding-bottom: 140px;
+}
+
+.about-me-title {
+	padding-top: 75px;
+	padding-bottom: 25px;
+	display: block;
+	text-transform: uppercase;
+	color: rgb(42, 42, 44);
+	font-size: 26px;
+	font-family: "Muller-Medium";
+}
+
+.about-me-text {
+	padding: 0px 50px;
+	display: block;
+	color: rgb(42, 42, 44);
+	font-size: 16px;
+	font-family: "Muller-Light";
+}
+
+.my-photo {
+	display: block;
+	text-align: center;
+	margin-top: 75px;
+}
+
+/*Skill Box*/
+
+.skill-container {
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    background-color: #ECEDED;
+    display: inline-block;
+}
+
+.skill-text {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-family: "Muller-Medium";
+	font-size: 26px;
+	color: #9C9E9F;
+	padding-top: 40px;
+	text-transform: uppercase;
+}
+
+.skill-container ul {
+	display: inline-block;
+	width: 100%;
+	border: 0;
+}
+
+.skill-container ul li {
+	border: 0;
+}
+
+.icon-container img {
+	width: 70px;
+	height: 70px;
+}
+
+.value-container {
+	padding-top: 85px;
+	margin-bottom: 0;
+}
+
+.icon-container {
+	padding-top: 20px;
+	height: 90px;
+	margin-bottom: 0;
+}
+
+.value-container li {
+	width: 50px;
+	font-family: "Muller-Medium";
+	font-size: 24px;
+	color: #9C9E9F;
+	margin: 0px 41.5px;
+}
+
+.icon-container li {
+	margin: 0px 30px;
+}
+
+
+
+hr {
+	display: none;
+}
+
+
+
+/*Contact Box*/
+
+.contact-box {
+	display: inline-block;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.contact-text {
+	margin-top: 50px;
+	margin-bottom: 75px;
+	display: inline-block;
+	color: rgb(42, 42, 44);
+	font-size: 16px;
+	font-family: "Muller-Light";
+	width: 80%;
+}
+
+.my-photo {
+	display: block;
+	text-align: center;
+	margin-top: 75px;
+}
+
+
+/*Footer*/
+
+.footer-box {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	height: 65px;
+/*	position: fixed;
+	bottom: 0;*/
+}
+
+.footer {
+	width: 100%;
+	height: 65px;
+	padding: 0;
+	margin: 0;
+}
+
+ul, li {
+	padding: 0;
+	display: inline-block;
+}
+
+.footer-tumblr {
+	padding: 0;
+	margin: 0;
+	width: 25%;
+	height: 100%;
+	background-color: rgb(49, 77, 121);
+	float: left;
+}
+
+.footer-facebook {
+	padding: 0;
+	margin: 0;
+	width: 25%;
+	height: 100%;
+	background-color: rgb(40, 151, 212);
+	
+}
+
+.footer-facebook2 {
+	padding: 0;
+	margin: 0;
+	width: 25%;
+	height: 100%;
+	background-color: rgb(40, 151, 212);
+	display: none;
+}
+
+.footer-linkedin {
+	padding: 0;
+	margin: 0;
+	width: 25%;
+	height: 100%;
+	background-color: rgb(40, 151, 212);
+	background-color: rgb(54, 99, 157);
+	float: left;
+	
+}
+
+.footer-instagram {
+	padding: 0;
+	margin: 0;
+	width: 25%;
+	height: 100%;
+	background-color: rgb(191, 131, 95);
+	float: right;
+	
+}
+
+.social-box {
+	display: block;
+}
+
+.social-icon {
+	height: 65px;
+	padding: 15px 0px;
+}
+
+
+
+
+@media screen and (max-width: 1115px) {
+	.header-menu-box {
+		display: none; /* скрыть все <li> пункты */
+	}
+
+	.write-me-button-container {
+		display: none;
+	}
+	
+
+	.header-menu2 a { /* увеличим размер шрифта меню */
+		font-size: 14px;
+	}
+
+
+	.icon-menu { /*покажем иконку меню*/
+		display: block;
+	}
+
+	.header-menu-box a {
+		display: block;
+		text-align: left;
+	}
+
+	.write-me-button {
+		display: none;
+	}
+
+	.header-menu-box ul {
+		left: auto;
+		right: 62.5px;
+	    padding: 37.5px 0px 37.5px 0px;
+	}
+
+	.header-download-line {
+		display: none;
+	}
+
+	.header-container {
+		height: 75px;
+	}
+
+
+	.fade-menu2 {
+		display: block;
+		height: 400px;
+	}
+
+	.my-portfolio-box {
+		height: 100%;
+		padding-bottom: 75px;
+	}
+
+	.portfolio-preview {
+		display: none;
+	}
+
+	.portfolio-preview2 {
+		display: block;
+	}
+
+	.portfolio-info {
+		margin: 0;
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+
+	.portfolio-title {
+		float: none;
+		text-align: center;
+	}
+
+	.porfolio-text {
+		float: none;
+		text-align: center;
+   		padding: 0px 50px;
+	}
+
+	.open-portfolio-button {
+		float: none;
+	}
+
+}
+
+@media screen and (max-width: 955px) {
+	
+	.skill-container{
+		display: none;
+	}
+
+	.about-me-container {
+		padding-bottom: 70px;
+	}
+
+	hr {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 728px) {
+	
+	.footer-facebook {
+		display: none;
+	}
+
+	.footer-facebook2 {
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+	.icon-menu {
+	right: 30px;
+	}
+
+	.avatar-box {
+		padding-left: 30px;
+		width: 80%;
+	}
+
+	.avatar-text {
+
+	}
+
+	h1 {
+		padding-top: 175px;
+		font-size: 44px;
+	}
+
+	h2 {
+		font-size: 16px;
+
+	}
+
+}
+
+
+@media screen and (max-width: 360px) {
+
+	.avatar-text {
+		display: none;
+	}
+
+	h1 {
+		font-size: 44px;
+	}
+
+	h2 {
+		font-size: 12px;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+	
+	h1 {
+		font-size: 36px;
+	}
+
+}
+
+/*Fonts Embed*/
+
+@font-face {
+    font-family: "Muller-Light";
+    src: url(../font/Muller-Light.otf);
+}
+
+@font-face {
+	font-family: "Muller-Regular";
+	src: url(../font/Muller-Regular.otf);
+}
+
+@font-face {
+	font-family: "Muller-Medium";
+	src: url(../font/Muller-Medium.otf);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
