@@ -278,147 +278,88 @@ li:hover a {
 
 
 
-/*Cover Box*/
-
-.cover-box {
-	margin: 0;
-	width: 100%;
-	text-align: center;
-}
-
-iframe {
-	display: inline-block;
-    width: 100%;
-}
-
-
-
-/*About Me*/
-
-.about-me-container {
-	background-color: white;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	display: block;
-	padding-bottom: 140px;
-}
-
-.about-me-title {
-	padding-top: 75px;
-	padding-bottom: 25px;
-	display: block;
-	text-transform: uppercase;
-	color: rgb(42, 42, 44);
-	font-size: 26px;
-	font-family: "Muller-Medium";
-}
-
-.about-me-text {
-	padding: 0px 50px;
-	display: block;
-	color: rgb(42, 42, 44);
-	font-size: 16px;
-	font-family: "Muller-Light";
-}
-
-.my-photo {
-	display: block;
-	text-align: center;
-	margin-top: 75px;
-}
-
-/*Skill Box*/
-
-.skill-container {
-    width: 100%;
-    height: 350px;
-    text-align: center;
-    background-color: #ECEDED;
-    display: inline-block;
-}
-
-.skill-text {
-	display: inline-block;
-	width: 100%;
-	text-align: center;
-	font-family: "Muller-Medium";
-	font-size: 26px;
-	color: #9C9E9F;
-	padding-top: 40px;
-	text-transform: uppercase;
-}
-
-.skill-container ul {
-	display: inline-block;
-	width: 100%;
-	border: 0;
-}
-
-.skill-container ul li {
-	border: 0;
-}
-
-.icon-container img {
-	width: 70px;
-	height: 70px;
-}
-
-.value-container {
-	padding-top: 85px;
-	margin-bottom: 0;
-}
-
-.icon-container {
-	padding-top: 20px;
-	height: 90px;
-	margin-bottom: 0;
-}
-
-.value-container li {
-	width: 50px;
-	font-family: "Muller-Medium";
-	font-size: 24px;
-	color: #9C9E9F;
-	margin: 0px 41.5px;
-}
-
-.icon-container li {
-	margin: 0px 30px;
-}
-
-
-
-hr {
-	display: none;
-}
-
-
-
 /*Contact Box*/
 
-.contact-box {
-	display: inline-block;
-	background-color: white;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-}
-
-.contact-text {
-	margin-top: 50px;
-	margin-bottom: 75px;
-	display: inline-block;
-	color: rgb(42, 42, 44);
-	font-size: 16px;
-	font-family: "Muller-Light";
-	width: 80%;
-}
-
-.my-photo {
+.contact-container {
 	display: block;
+	width: 100%;
+	height: auto;
+	padding-top: 278px;
+	padding-bottom: 200px;
 	text-align: center;
-	margin-top: 75px;
+}
+
+.skype-container {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	border: 2px solid rgb(40, 151, 212);
+	border-radius: 40px;
+	padding: 5px 10px 5px 5px;
+	margin-right: 20px;
+}
+
+.skype-icon {
+	height: 36px;
+}
+
+.skype-text {
+	padding: 0px 0px 0px 10px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	font-family: "Muller-Regular";
+	line-height: 30px;
+	color: rgb(40, 151, 212);
+}
+
+.write-me-container {
+	display: inline-block;
+	width: 220px;
+	height: auto;
+	background-color: rgb(40, 151, 212);
+	border-radius: 40px;
+	padding: 13px 10px 13px 10px;
+	text-align: center;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.write-me-text {
+	display: inline-block;
+	height: 16px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: "Muller-Regular";
+	line-height: 30px;
+	color: white;
+}
+
+
+.phone-container {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	border: 2px solid rgb(40, 151, 212);
+	border-radius: 40px;
+	padding: 5px 10px 5px 5px;
+	margin-left: 20px;
+}
+
+.phone-icon {
+	height: 36px;
+}
+
+.phone-text {
+	padding: 0px 0px 0px 10px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	font-family: "Muller-Regular";
+	line-height: 30px;
+	color: rgb(40, 151, 212);
 }
 
 
@@ -429,8 +370,8 @@ hr {
 	display: inline-block;
 	width: 100%;
 	height: 65px;
-/*	position: fixed;
-	bottom: 0;*/
+	position: fixed;
+	bottom: 0;
 }
 
 .footer {
