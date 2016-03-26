@@ -282,86 +282,112 @@ li:hover a {
 
 .contact-container {
 	display: block;
-	width: 100%;
-	height: auto;
-	padding-top: 278px;
-	padding-bottom: 200px;
-	text-align: center;
-}
-
-.skype-container {
-	display: inline-block;
 	width: auto;
 	height: auto;
-	border: 2px solid rgb(40, 151, 212);
-	border-radius: 40px;
-	padding: 5px 10px 5px 5px;
-	margin-right: 20px;
-}
-
-.skype-icon {
-	height: 36px;
-}
-
-.skype-text {
-	padding: 0px 0px 0px 10px;
-	text-decoration: none;
+	padding-top: 328px;
+	padding-bottom: 200px;
 	text-align: center;
-	font-size: 16px;
+	margin: 0px 50px;
+}
+
+.phone-container {
+	display: inline-block;
+	width: 33.33333334%;
+	height: 50px;
+}
+
+.icon-phone {
+	display: inline-block;
+	font-size: 40px;
+	margin: 5px 0px;
+	color: rgb(88, 89, 93);
+	float: left;
+}
+
+.phone-text {
+	font-size: 20px;
 	font-family: "Muller-Regular";
-	line-height: 30px;
-	color: rgb(40, 151, 212);
+	color: rgb(88, 89, 93);
+	display: inline-block;
+    width: auto;
+    height: 20px;
+    margin: 10px 0px 10px 20px;
+	float: left;
 }
 
 .write-me-container {
 	display: inline-block;
-	width: 220px;
-	height: auto;
-	background-color: rgb(40, 151, 212);
-	border-radius: 40px;
-	padding: 13px 10px 13px 10px;
-	text-align: center;
-	margin-right: 20px;
-	margin-left: 20px;
+	width: 33.33333334%;
+	height: 50px;
+}
+
+.icon-mail {
+	display: inline-block;
+	font-size: 40px;
+	margin: 5px 0px;
+	color: rgb(88, 89, 93);
+	float: left;
 }
 
 .write-me-text {
-	display: inline-block;
-	height: 16px;
-	text-decoration: none;
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 20px;
 	font-family: "Muller-Regular";
-	line-height: 30px;
-	color: white;
-}
-
-
-.phone-container {
+	color: rgb(88, 89, 93);
 	display: inline-block;
-	width: auto;
-	height: auto;
-	border: 2px solid rgb(40, 151, 212);
-	border-radius: 40px;
-	padding: 5px 10px 5px 5px;
-	margin-left: 20px;
+    width: auto;
+    height: 20px;
+    margin: 10px 0px 10px 20px;
+	float: left;
 }
 
-.phone-icon {
-	height: 36px;
+.skype-container {
+	display: inline-block;
+	width: 33.33333334%;
+	height: 50px;
 }
 
-.phone-text {
-	padding: 0px 0px 0px 10px;
-	text-decoration: none;
-	text-align: center;
-	font-size: 16px;
+.icon-skype {
+	display: inline-block;
+	font-size: 40px;
+	margin: 5px 0px;
+	color: rgb(88, 89, 93);
+	float: left;
+}
+
+.skype-text {
+	font-size: 20px;
 	font-family: "Muller-Regular";
-	line-height: 30px;
+	color: rgb(88, 89, 93);
+	display: inline-block;
+    width: auto;
+    height: 20px;
+    margin: 10px 0px 10px 20px;
+	float: left;
+}
+
+.phone-container:hover .phone-text {
 	color: rgb(40, 151, 212);
 }
 
+.phone-container:hover .icon-phone {
+	color: rgb(40, 151, 212);
+}
+
+.skype-container:hover .skype-text {
+	color: rgb(40, 151, 212);
+}
+
+.skype-container:hover .icon-skype {
+	color: rgb(40, 151, 212);
+}
+
+.write-me-container:hover .write-me-text {
+	color: rgb(40, 151, 212);
+}
+
+.write-me-container:hover .icon-mail {
+	color: rgb(40, 151, 212);
+}
 
 /*Footer*/
 
