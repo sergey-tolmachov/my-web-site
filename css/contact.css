@@ -285,15 +285,39 @@ li:hover a {
 	width: auto;
 	height: auto;
 	padding-top: 328px;
-	padding-bottom: 200px;
 	text-align: center;
 	margin: 0px 50px;
 }
 
 .phone-container {
 	display: inline-block;
-	width: 33.33333334%;
+	width: 33%;
 	height: 50px;
+	float: left;
+}
+
+.phone-box {
+	display: block;
+    width: 238px;
+    margin: 0% auto;
+    text-align: center;
+    height: 50px;
+}
+
+.write-me-box {
+	display: block;
+    width: 290px;
+    margin: 0% auto;
+    text-align: center;
+    height: 50px;
+}
+
+.skype-box {
+	display: block;
+    width: 171px;
+    margin: 0% auto;
+    text-align: center;
+    height: 50px;
 }
 
 .icon-phone {
@@ -317,7 +341,7 @@ li:hover a {
 
 .write-me-container {
 	display: inline-block;
-	width: 33.33333334%;
+	width: 33%;
 	height: 50px;
 }
 
@@ -342,8 +366,9 @@ li:hover a {
 
 .skype-container {
 	display: inline-block;
-	width: 33.33333334%;
+	width: 33%;
 	height: 50px;
+	float: right;
 }
 
 .icon-skype {
@@ -555,7 +580,38 @@ ul, li {
 		float: none;
 	}
 
+
+	/*Contact-Box*/
+
+	.contact-container {
+		padding-top: 278px;
+		margin: 0px;
+		padding-right: 30px;
+		padding-left: 30px; 
+	}
+	
+	.phone-container {
+		display: block;
+		float: none;
+		margin: 20px auto;
+		width: 100%;
+	}
+	
+	.write-me-container {
+		display: block;
+		margin: 20px auto;
+		width: 100%;
+	}
+	
+	.skype-container {
+		display: block;
+		float: none;
+		margin: 20px auto;
+		width: 100%;
+	}
+
 }
+
 
 @media screen and (max-width: 955px) {
 	
