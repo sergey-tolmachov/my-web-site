@@ -217,7 +217,7 @@ li:hover span {
 
 /*Forms*/
 
-.modal-header {
+/*.modal-header {
     padding: 15px;
     border-bottom: none;
 	background-color: rgb(54, 99, 157);
@@ -319,6 +319,10 @@ li:hover span {
     border-radius: 2px;
     box-shadow: none;
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}*/
+
+.modal-backdrop {
+	display: none;
 }
 
 /* /Forms */
