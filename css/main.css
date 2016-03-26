@@ -321,8 +321,59 @@ li:hover span {
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
 }*/
 
+@media (min-width: 768px) {
+	.modal-dialog {
+	    width: 60%;
+	    margin: 150px auto;
+	}
+}
+
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: rgb(88, 89, 93);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+	height: 40px;
+}
+
+.modal-footer {
+    border-top: none;
+    text-align: center;
+}
+
+.btn-send {
+	border: none;
+	border-radius: 2px;
+	width: 120px;
+	height: 40px;
+	background-color: rgb(40, 151, 212);
+	color: white;
+}
+
+.modal-title {
+	color: white;
+	font-family: "Muller-Regular";
+}
+
+.close {
+	color: white;
+	text-shadow: none;
+	opacity: 1;
+	margin-top: 0px;
+} 
+
 .modal-backdrop {
-	display: none;
+/*	display: none;*/
+
+	z-index: 0;
 }
 
 /* /Forms */

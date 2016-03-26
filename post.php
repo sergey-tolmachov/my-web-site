@@ -10,7 +10,7 @@ $date=date("d.m.y"); // число.месяц.год
  
 $time=date("H:i"); // часы:минуты:секунды 
  
-$backurl="http://google.com";  // На какую страничку переходит после отправки письма 
+$backurl="http://tolmachov.website/forma-otpravki-test/index.html";  // На какую страничку переходит после отправки письма 
  
 //---------------------------------------------------------------------- // 
  
@@ -71,10 +71,8 @@ mail("$adminemail", "$date $time Сообщение
 // Выводим сообщение пользователю 
  
 print "<script language='Javascript'><!-- 
-function reload() {location = \"$backurl\"}; setTimeout('reload()', 6000); 
-//--></script> 
- 
-$msg 
+function reload() {location = \"$backurl\"}; setTimeout('reload()', 3000); 
+//--></script>  
  
 <p>Сообщение отправлено! Подождите, сейчас вы будете перенаправлены на главную страницу...</p>";  
 exit; 
