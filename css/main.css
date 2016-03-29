@@ -323,7 +323,7 @@ li:hover span {
 
 @media (min-width: 768px) {
 	.modal-dialog {
-	    width: 60%;
+	    width: 600px;
 	    margin: 150px auto;
 	}
 }
@@ -374,6 +374,10 @@ li:hover span {
 /*	display: none;*/
 
 	z-index: 0;
+}
+
+.modal-backdrop.in {
+    opacity: .75;
 }
 
 /* /Forms */
@@ -1051,7 +1055,13 @@ ul, li {
 	src: url(../font/Muller-Medium.otf);
 }
 
-
+.modal-open .wrapper {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -ms-filter: blur(5px);
+    -o-filter: blur(5px);
+    filter: blur(5px);    
+}
 
 
 
