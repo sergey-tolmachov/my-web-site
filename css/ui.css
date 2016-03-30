@@ -192,6 +192,7 @@ li:hover a {
 	transition: 0.35s;
 	position: absolute;
 	right: 50px;
+	background-color: rgba(0,0,0,0);
 
 }
 
@@ -216,6 +217,10 @@ li:hover a {
 	border: 1px solid rgb(255, 255, 255);
 	border-color: rgb(255, 255, 255);
 	background-color: rgb(255, 255, 255);	
+}
+
+.write-me-button-container .btn-lg {
+	padding: 0;
 }
 
 .header-download-line {
@@ -281,7 +286,74 @@ li:hover a {
 	background-color: rgb(88, 89, 93);
 }
 
+/*Forms*/
 
+@media (min-width: 768px) {
+	.modal-dialog {
+	    width: 600px;
+	    margin: 150px auto;
+	}
+}
+
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: rgb(88, 89, 93);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+	height: 40px;
+}
+
+.modal-footer {
+    border-top: none;
+    text-align: center;
+}
+
+.btn-send {
+	border: none;
+	border-radius: 2px;
+	width: 120px;
+	height: 40px;
+	background-color: rgb(40, 151, 212);
+	color: white;
+}
+
+.modal-title {
+	color: white;
+	font-family: "Muller-Regular";
+}
+
+.close {
+	color: white;
+	text-shadow: none;
+	opacity: 1;
+	margin-top: 0px;
+}
+
+.modal-backdrop.in {
+    opacity: .75;
+}
+
+textarea.form-control {
+    height: 100px;
+}
+
+.modal-open .wrapper {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -ms-filter: blur(5px);
+    -o-filter: blur(5px);
+    filter: blur(5px);    
+}
+
+/* /Forms */
 
 /*Portfolio*/
 

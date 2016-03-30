@@ -167,52 +167,6 @@ li:hover a {
 	color: white;
 }
 
-
-.write-me-button-container {
-	position: absolute;
-	display: inline-block;
-	text-align: center;
-	width: 20%;
-	height: 100%;
-	right: 0;
-	padding-right: 50px;
-}
-
-.write-me-button {
-	width: 145px;
-	height: 30px;
-	margin: 22.5px 0px;
-	border-radius: 2px;
-	border: 1px solid rgb(255, 255, 255);
-	transition: 0.35s;
-	position: absolute;
-	right: 50px;
-
-}
-
-.write-me {
-	padding: 10px 40.5px;
-	text-decoration: none;
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 12px;
-	font-family: "Muller-Regular";
-	line-height: 30px;
-	color: rgb(255, 255, 255);
-}
-
-.write-me:hover {
-	color: rgb(42, 42, 44);
-	text-decoration: none;
-}
-
-.write-me-button:hover {
-	border-radius: 2px;
-	border: 1px solid rgb(255, 255, 255);
-	border-color: rgb(255, 255, 255);
-	background-color: rgb(255, 255, 255);	
-}
-
 .header-download-line {
 	width: 100%;
 	height: 3px;
@@ -272,147 +226,79 @@ li:hover a {
     padding: 14.5px 110px 14.5px 110px;
 }
 
-.write-me-button2 {
-	background-color: rgb(88, 89, 93);
+/*Forms*/
+
+.form-group {
+    margin-bottom: 20px;
 }
 
+.form-control {
+	height: 40px;
+}
 
+.modal-footer {
+    border-top: none;
+    text-align: center;
+}
 
-/*Contact Box*/
+.btn-send {
+	border: none;
+	border-radius: 2px;
+	width: 120px;
+	height: 40px;
+	background-color: rgb(40, 151, 212);
+	color: white;
+}
 
-.contact-container {
-	display: block;
-	width: auto;
-	height: auto;
-	padding-top: 328px;
+.modal-backdrop.in {
+    opacity: .75;
+}
+
+textarea.form-control {
+    height: 100px;
+}
+
+.modal-open .wrapper {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -ms-filter: blur(5px);
+    -o-filter: blur(5px);
+    filter: blur(5px);    
+}
+
+.form-container {
+	width: 100%;
+	height: 100%;
 	text-align: center;
-	margin: 0px 50px;
-}
-
-.phone-container {
-	display: inline-block;
-	width: 33%;
-	height: 50px;
-	float: left;
-}
-
-.phone-box {
 	display: block;
-    width: 238px;
-    margin: 0% auto;
-    text-align: center;
-    height: 50px;
 }
 
-.write-me-box {
+.form-title {
+	padding-top: 208px;
 	display: block;
-    width: 290px;
-    margin: 0% auto;
-    text-align: center;
-    height: 50px;
+	text-transform: uppercase;
+	color: rgb(42, 42, 44);
+	font-size: 26px;
+	font-family: "Muller-Medium";
+	margin: auto;
 }
 
-.skype-box {
-	display: block;
-    width: 171px;
-    margin: 0% auto;
-    text-align: center;
-    height: 50px;
+form {
+	padding-top: 50px;
+	width: 600px;
+	margin: auto;
 }
 
-.icon-phone {
-	display: inline-block;
-	font-size: 40px;
-	margin: 5px 0px;
-	color: rgb(88, 89, 93);
-	float: left;
+@media screen and (max-width: 728px) {
+	
+	form {
+		width: auto;
+		margin-right: 30px;
+		margin-left: 30px;
+	}
 }
 
-.phone-text {
-	font-size: 20px;
-	font-family: "Muller-Regular";
-	color: rgb(88, 89, 93);
-	display: inline-block;
-    width: auto;
-    height: 20px;
-    margin: 10px 0px 10px 20px;
-	float: left;
-}
-
-.write-me-container {
-	display: inline-block;
-	width: 33%;
-	height: 50px;
-}
-
-.icon-mail {
-	display: inline-block;
-	font-size: 40px;
-	margin: 5px 0px;
-	color: rgb(88, 89, 93);
-	float: left;
-}
-
-.write-me-text {
-	font-size: 20px;
-	font-family: "Muller-Regular";
-	color: rgb(88, 89, 93);
-	display: inline-block;
-    width: auto;
-    height: 20px;
-    margin: 10px 0px 10px 20px;
-	float: left;
-}
-
-.skype-container {
-	display: inline-block;
-	width: 33%;
-	height: 50px;
-	float: right;
-}
-
-.icon-skype {
-	display: inline-block;
-	font-size: 40px;
-	margin: 5px 0px;
-	color: rgb(88, 89, 93);
-	float: left;
-}
-
-.skype-text {
-	font-size: 20px;
-	font-family: "Muller-Regular";
-	color: rgb(88, 89, 93);
-	display: inline-block;
-    width: auto;
-    height: 20px;
-    margin: 10px 0px 10px 20px;
-	float: left;
-}
-
-.phone-container:hover .phone-text {
-	color: rgb(40, 151, 212);
-}
-
-.phone-container:hover .icon-phone {
-	color: rgb(40, 151, 212);
-}
-
-.skype-container:hover .skype-text {
-	color: rgb(40, 151, 212);
-}
-
-.skype-container:hover .icon-skype {
-	color: rgb(40, 151, 212);
-}
-
-.write-me-container:hover .write-me-text {
-	color: rgb(40, 151, 212);
-}
-
-.write-me-container:hover .icon-mail {
-	color: rgb(40, 151, 212);
-}
+/* /Forms */
 
 /*Footer*/
 

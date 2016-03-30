@@ -274,6 +274,14 @@ textarea.form-control {
     height: 100px;
 }
 
+.modal-open .wrapper {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -ms-filter: blur(5px);
+    -o-filter: blur(5px);
+    filter: blur(5px);    
+}
+
 /* /Forms */
 
 .write-me:hover {
@@ -1047,14 +1055,6 @@ ul, li {
 @font-face {
 	font-family: "Muller-Medium";
 	src: url(../font/Muller-Medium.otf);
-}
-
-.modal-open .wrapper {
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -ms-filter: blur(5px);
-    -o-filter: blur(5px);
-    filter: blur(5px);    
 }
 
 
