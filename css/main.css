@@ -282,6 +282,10 @@ textarea.form-control {
     filter: blur(5px);    
 }
 
+.modal-content {
+	background-color: rgba(255, 255, 255, 0.85);
+}
+
 /* /Forms */
 
 .write-me:hover {
@@ -464,7 +468,7 @@ h2 {
 	color: rgb(42, 42, 44);
 	font-size: 16px;
 	font-family: "Muller-Light";
-	margin-bottom: 75px;
+	margin-bottom: 25px;
 }
 
 .read-more-button {
@@ -867,7 +871,7 @@ ul, li {
 
 
 
-@media screen and (max-width: 1115px) {
+@media screen and (max-width: 1120px) {
 	.header-menu-box {
 		display: none; /* скрыть все <li> пункты */
 	}
@@ -950,13 +954,10 @@ ul, li {
 		float: none;
 	}
 
-}
-
-@media screen and (max-width: 955px) {
-	
 	.skill-container{
 		display: none;
 	}
+
 }
 
 @media screen and (max-width: 728px) {
