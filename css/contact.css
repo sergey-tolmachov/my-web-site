@@ -300,6 +300,124 @@ form {
 
 /* /Forms */
 
+
+/*Contact-Box*/
+
+.contact-container {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	padding-top: 75px;
+	margin-bottom: 100px;
+}
+
+.phone-container {
+	display: inline-block;
+	float: left;
+	margin: 20px auto;
+	width: 33.3333%;
+	height: 50px;
+}
+
+.icon-phone {
+	display: inline-block;
+	font-size: 40px;
+	margin: 5px 0px;
+	color: rgb(88, 89, 93);
+	float: left;
+}
+
+.phone-text {
+	font-size: 20px;
+	font-family: "Muller-Regular";
+	color: rgb(88, 89, 93);
+	display: inline-block;
+    width: auto;
+    height: 20px;
+    margin: 10px 0px 10px 20px;
+	float: left;
+}
+
+.phone-container:hover .phone-text {
+	color: rgb(40, 151, 212);
+}
+
+.phone-container:hover .icon-phone {
+	color: rgb(40, 151, 212);
+}
+
+.write-me-container {
+	display: inline-block;
+	float: left;
+	margin: 20px auto;
+	width: 33.3333%;
+	height: 50px;
+}
+
+.icon-mail {
+	display: inline-block;
+	font-size: 40px;
+	margin: 5px 0px;
+	color: rgb(88, 89, 93);
+	float: left;
+}
+
+.write-me-text {
+	font-size: 20px;
+	font-family: "Muller-Regular";
+	color: rgb(88, 89, 93);
+	display: inline-block;
+    width: auto;
+    height: 20px;
+    margin: 10px 0px 10px 20px;
+	float: left;
+}
+
+.write-me-container:hover .write-me-text {
+	color: rgb(40, 151, 212);
+}
+
+.write-me-container:hover .icon-mail {
+	color: rgb(40, 151, 212);
+}
+
+.skype-container {
+	display: inline-block;
+	float: none;
+	margin: 20px auto;
+	width: 33.3333%;
+	height: 50px;
+}
+
+.icon-skype {
+	display: inline-block;
+	font-size: 40px;
+	margin: 5px 0px;
+	color: rgb(88, 89, 93);
+	float: left;
+}
+
+.skype-text {
+	font-size: 20px;
+	font-family: "Muller-Regular";
+	color: rgb(88, 89, 93);
+	display: inline-block;
+    width: auto;
+    height: 20px;
+    margin: 10px 0px 10px 20px;
+	float: left;
+}
+
+.skype-container:hover .skype-text {
+	color: rgb(40, 151, 212);
+}
+
+.skype-container:hover .icon-skype {
+	color: rgb(40, 151, 212);
+}
+
+
 /*Footer*/
 
 .footer-box {
