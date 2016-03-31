@@ -177,6 +177,9 @@ li:hover span {
 	color: white;
 }
 
+.current a {
+	color: white;
+}
 
 .write-me-button-container {
 	position: absolute;
