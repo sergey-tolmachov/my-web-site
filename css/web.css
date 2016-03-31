@@ -60,7 +60,7 @@ img.avatar {
 
 .header-menu {
 	margin: 0;
-    padding: 13px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 	display: inline-block;
 }
 
@@ -91,48 +91,59 @@ li:hover a {
 	color: white;
 }
 
+li:hover span {
+	color: white;
+}
+
 /*Icons on header*/
 
 .icon-home {
 	font-size: 25px;
 	color: rgb(42, 42, 44);
 	display: block;
+	padding-bottom: 13px;
 }
 
 .icon-ui {
 	font-size: 25px;
 	color: rgb(42, 42, 44);
 	display: block;
+	padding-bottom: 13px;
 }
 
 .icon-web {
 	font-size: 25px;
 	color: white;
 	display: block;
+	padding-bottom: 13px;
 }
 
 .icon-frontend {
 	font-size: 25px;
 	color: rgb(42, 42, 44);
 	display: block;	
+	padding-bottom: 13px;
 }
 
 .icon-logo {
 	font-size: 25px;
 	color: rgb(42, 42, 44);
 	display: block;
+	padding-bottom: 13px;
 }
 
 .icon-other {
 	font-size: 25px;
 	color: rgb(42, 42, 44);
 	display: block;
+	padding-bottom: 13px;
 }
 
 .icon-contact {
 	font-size: 25px;
 	color: rgb(42, 42, 44);
 	display: block;
+	padding-bottom: 13px;
 }
 
 .icon-menu {
@@ -173,6 +184,9 @@ li:hover a {
 	color: white;
 }
 
+.current a {
+	color: white;
+}
 
 .write-me-button-container {
 	position: absolute;
@@ -343,6 +357,10 @@ li:hover a {
 
 textarea.form-control {
     height: 100px;
+}
+
+.modal-content {
+	background-color: rgba(255, 255, 255, 0.9);
 }
 
 .modal-open .wrapper {
