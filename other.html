@@ -23,6 +23,7 @@
   <body>
   
   <!--Header-->
+<div class="wrapper">
   <div class="header-container">
 
       <a class="avatar-box" href="index.html">
@@ -32,20 +33,22 @@
 
       <div class="header-menu-box">
         <nav class="header-menu">
-          <li class="icon-home"><a href="index.html">home</a></li>
-          <li class="icon-ui"><a href="ui.html">ui/ux design</a></li>
-          <li class="icon-web"><a href="web.html">web design</a></li>
-          <li class="icon-frontend"><a href="#">frontend</a></li>
-          <li class="icon-logo"><a href="logo.html">logo design</a></li>
-          <li class="icon-other"><a href="#">other</a></li>
-          <li class="icon-contact"><a href="contact.html">contact</a></li>
+          <li><a href="index.html"><span class="icon-home"></span>home</a></li>
+          <li><a href="ui.html"><span class="icon-ui"></span>ui/ux design</a></li>
+          <li><a href="web.html"><span class="icon-web"></span>web design</a></li>
+          <li><a href="#"><span class="icon-frontend"></span>frontend</a></li>
+          <li><a href="logo.html"><span class="icon-logo"></span>logo design</a></li>
+          <li class="current"><a href="#"><span class="icon-other"></span>other</a></li>
+          <li><a href="contact.html"><span class="icon-contact"></span>contact</a></li>
         </nav>
       </div>
 
       <div class="write-me-button-container">
-        <div class="write-me-button">
-          <a href="mailto:s.tolmachov@icloud.com" class="write-me">write me</a>
-        </div>
+
+    <!-- Button trigger modal -->   
+    <button type="button" class="btn btn-primary btn-lg write-me-button write-me toggleModal" data-toggle="modal" data-target="#exampleModal">write me
+    </button>
+
       </div>
 
     <!--Small Screen-->
@@ -132,8 +135,34 @@
         <li class="footer-instagram"><a class="social-box" href="https://www.instagram.com/tolmachov_sergey/" target="_blank"><img class="social-icon" src="icons/instagram.svg"></a></li>
       </ul>
     </div>
+</div>
 
-
+<!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="exampleModalLabel">Please, leave your message</h4>
+          </div>
+          <div class="modal-body">
+            <form action= "post.php" method= "POST">
+              <div class="form-group">
+                <input type="text" class="form-control" name= "name" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name= "email" placeholder="E-mail">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name= "message" placeholder="Message"></textarea>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <input class="btn-send" type= "submit" value= "Отправить"> 
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/other.js" type="text/javascript"></script>    
