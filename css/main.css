@@ -390,7 +390,7 @@ textarea.form-control {
 }
 
 h1 {
-	padding-top: 240px;
+	padding-top: 300px;
 	margin: 0;
 	text-decoration: none;
 	text-align: center;
@@ -398,6 +398,7 @@ h1 {
 	color: rgb(255, 255, 255);
 	font-size: 72px;
 	font-family: "Muller-Medium";
+	letter-spacing: 2px;
 }
 
 h2 {
@@ -408,11 +409,12 @@ h2 {
 	color: rgb(255, 255, 255);
 	font-size: 18px;
 	font-family: "Muller-Light";
+	letter-spacing: 2px;
 }
 
 .resume-button {
 	margin-top: 75px;
-	margin-bottom: 150px;
+	margin-bottom: 230px;
 	width: 175px;
 	height: 40px;
 	border-radius: 2px;
@@ -466,7 +468,7 @@ h2 {
 }
 
 .about-me-text {
-	padding: 0% 10%;
+	padding: 0% 15%;
 	display: block;
 	color: rgb(42, 42, 44);
 	font-size: 16px;
@@ -1017,6 +1019,10 @@ ul, li {
 		margin-top: 50px;
 	}
 
+	.resume-button {
+		margin-bottom: 150px;
+	}
+
 }
 
 
@@ -1060,10 +1066,6 @@ ul, li {
 	font-family: "Muller-Medium";
 	src: url(../font/Muller-Medium.otf);
 }
-
-
-
-
 
 
 
