@@ -150,6 +150,16 @@ li:hover span {
 	position: fixed;
 }
 
+.icon-menu-focus {
+	font-size: 25px;
+	color: white;
+	display: block;
+	position: absolute;
+	right: 50px;
+	padding: 25px 0px 25px 0px;
+	position: fixed;
+}
+
 .icon-other:hover {
 	color: white;
 }
@@ -586,7 +596,7 @@ ul, li {
 
 	.fade-menu2 {
 		display: block;
-		height: 400px;
+		height: 351px;
 	}
 
 	.my-portfolio-box {
