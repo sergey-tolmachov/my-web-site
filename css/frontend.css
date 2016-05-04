@@ -1,3 +1,8 @@
+body {
+	background-color: rgb(237, 237, 237);
+}
+
+
 /*Header*/
 
 .header-container {
@@ -6,6 +11,7 @@
 	height: 75px;
 	background-color: rgb(88, 89, 93);
 	display: inline-block;
+	z-index: 1000000;
 
 }
 
@@ -114,7 +120,7 @@ li:hover span {
 
 .icon-frontend {
 	font-size: 25px;
-	color: rgb(42, 42, 44);
+	color: white;
 	display: block;	
 	padding-bottom: 13px;
 }
@@ -135,7 +141,7 @@ li:hover span {
 
 .icon-contact {
 	font-size: 25px;
-	color: white;
+	color: rgb(42, 42, 44);
 	display: block;
 	padding-bottom: 13px;
 }
@@ -173,13 +179,61 @@ li:hover span {
 }
 
 
-.icon-contact a {
+.icon-frontend a {
 	font-family: "Muller-Medium";
 	color: white;
 }
 
 .current a {
 	color: white;
+}
+
+.write-me-button-container {
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	height: 100%;
+	right: 0;
+}
+
+.write-me-button {
+	width: 145px;
+	height: 30px;
+	margin: 22.5px 0px;
+	border-radius: 2px;
+	border: 1px solid rgb(255, 255, 255);
+	transition: 0.35s;
+	position: absolute;
+	right: 50px;
+	background-color: rgba(0,0,0,0);
+}
+
+.write-me {
+	padding: 10px 40.5px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: "Muller-Regular";
+	line-height: 30px;
+	color: rgb(255, 255, 255);
+}
+
+.write-me:hover {
+	color: rgb(42, 42, 44);
+	text-decoration: none;
+}
+
+.write-me-button:hover {
+	border-radius: 2px;
+	border: 1px solid rgb(255, 255, 255);
+	border-color: rgb(255, 255, 255);
+	background-color: rgb(255, 255, 255);	
+}
+
+.write-me-button-container .btn-lg {
+	padding: 0;
 }
 
 .header-download-line {
@@ -241,7 +295,26 @@ li:hover span {
     padding: 14.5px 110px 14.5px 110px;
 }
 
+.write-me-button2 {
+	background-color: rgb(88, 89, 93);
+}
+
 /*Forms*/
+
+@media (min-width: 768px) {
+	.modal-dialog {
+	    width: 600px;
+	    margin: 150px auto;
+	}
+}
+
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: rgb(88, 89, 93);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px; 
+}
 
 .form-group {
     margin-bottom: 20px;
@@ -265,6 +338,18 @@ li:hover span {
 	color: white;
 }
 
+.modal-title {
+	color: white;
+	font-family: "Muller-Regular";
+}
+
+.close {
+	color: white;
+	text-shadow: none;
+	opacity: 1;
+	margin-top: 0px;
+}
+
 .modal-backdrop.in {
     opacity: .75;
 }
@@ -285,263 +370,151 @@ textarea.form-control {
     filter: blur(5px);    
 }
 
-.form-container {
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	display: block;
-}
-
-.form-title {
-	padding-top: 188px;
-	display: block;
-	text-transform: uppercase;
-	color: rgb(88, 89, 93);
-	font-size: 26px;
-	font-family: "Muller-Medium";
-	margin: auto;
-	padding-right: 30px;
-	padding-left: 30px; 
-}
-
-form {
-	padding-top: 50px;
-	width: 600px;
-	margin: auto;
-}
-
-@media screen and (max-width: 728px) {
-	
-	form {
-		width: auto;
-		margin-right: 30px;
-		margin-left: 30px;
-	}
-}
-
 /* /Forms */
 
+/*Portfolio*/
 
-/*Contact-Box*/
-
-.contact-container {
-	display: inline-block;
-	text-align: center;
+#carousel-example-generic {
 	width: 100%;
-	height: auto;
-	padding-top: 75px;
-	margin-bottom: 75px;
 }
 
-.phone-container {
-	display: inline-block;
-	float: left;
-	margin: 20px auto;
-	width: 33.3333%;
-	height: 50px;
+.carousel-inner {
+	height: 100%;
 }
 
-.icon-phone {
-	display: inline-block;
-	font-size: 40px;
-	margin: 5px 0px;
-	color: rgb(88, 89, 93);
-	float: left;
-}
-
-.phone-text {
-	font-size: 20px;
-	font-family: "Muller-Regular";
-	color: rgb(88, 89, 93);
-	display: inline-block;
-    width: auto;
-    height: 20px;
-    margin: 10px 0px 10px 20px;
-	float: left;
-}
-
-.phone-container:hover .phone-text {
-	color: rgb(40, 151, 212);
-}
-
-.phone-container:hover .icon-phone {
-	color: rgb(40, 151, 212);
-}
-
-.mail-container {
-	display: inline-block;
-	float: left;
-	margin: 20px auto;
-	width: 33.3333%;
-	height: 50px;
-}
-
-.icon-mail {
-	display: inline-block;
-	font-size: 40px;
-	margin: 5px 0px;
-	color: rgb(88, 89, 93);
-	float: left;
-}
-
-.mail-text {
-	font-size: 20px;
-	font-family: "Muller-Regular";
-	color: rgb(88, 89, 93);
-	display: inline-block;
-    width: auto;
-    height: 20px;
-    margin: 10px 0px 10px 20px;
-	float: left;
-}
-
-.mail-container:hover .mail-text {
-	color: rgb(40, 151, 212);
-}
-
-.mail-container:hover .icon-mail {
-	color: rgb(40, 151, 212);
-}
-
-.skype-container {
-	display: inline-block;
-	float: none;
-	margin: 20px auto;
-	width: 33.3333%;
-	height: 50px;
-}
-
-.icon-skype {
-	display: inline-block;
-	font-size: 40px;
-	margin: 5px 0px;
-	color: rgb(88, 89, 93);
-	float: left;
-}
-
-.skype-text {
-	font-size: 20px;
-	font-family: "Muller-Regular";
-	color: rgb(88, 89, 93);
-	display: inline-block;
-    width: auto;
-    height: 20px;
-    margin: 10px 0px 10px 20px;
-	float: left;
-}
-
-.skype-container:hover .skype-text {
-	color: rgb(40, 151, 212);
-}
-
-.skype-container:hover .icon-skype {
-	color: rgb(40, 151, 212);
-}
-
-.phone-box {
-	display: inline-block;
-	width: 238px;
-	height: auto;
-	text-align: center;
-}
-
-.mail-box {
-	display: inline-block;
-	width: 290px;
-	height: auto;
-	text-align: center;
-}
-
-.skype-box {
-	display: inline-block;
-	width: 171px;
-	height: auto;
-	text-align: center;
-}
-/*Footer*/
-
-.footer-box {
-	text-align: center;
-	display: inline-block;
+.item {
 	width: 100%;
-	height: 65px;
-	position: fixed;
-	bottom: 0;
+	text-align: center;
 }
 
-.footer {
-	width: 100%;
-	height: 65px;
-	padding: 0;
-	margin: 0;
-}
-
-ul, li {
-	padding: 0;
-	display: inline-block;
-}
-
-.footer-tumblr {
-	padding: 0;
-	margin: 0;
-	width: 25%;
-	height: 100%;
-	background-color: rgb(49, 77, 121);
-	float: left;
-}
-
-.footer-facebook {
-	padding: 0;
-	margin: 0;
-	width: 25%;
-	height: 100%;
-	background-color: rgb(40, 151, 212);
-	
-}
-
-.footer-facebook2 {
-	padding: 0;
-	margin: 0;
-	width: 25%;
-	height: 100%;
-	background-color: rgb(40, 151, 212);
-	display: none;
-}
-
-.footer-linkedin {
-	padding: 0;
-	margin: 0;
-	width: 25%;
-	height: 100%;
-	background-color: rgb(40, 151, 212);
-	background-color: rgb(54, 99, 157);
-	float: left;
-	
-}
-
-.footer-instagram {
-	padding: 0;
-	margin: 0;
-	width: 25%;
-	height: 100%;
-	background-color: rgb(191, 131, 95);
-	float: right;
-	
-}
-
-.social-box {
+.my-slider01 {
 	display: block;
+	width: 100%;
+	height: 1080px;
 }
 
-.social-icon {
-	height: 65px;
-	padding: 15px 0px;
+.my-slider02 {
+	display: block;
+	width: 100%;
+	height: 1080px;
+}
+
+.my-slider03 {
+	display: block;
+	width: 100%;
+	height: 1080px;
+}
+
+.my-slider04 {
+	display: block;
+	width: 100%;
+	height: 1080px;
 }
 
 
+.item img {
+	text-align: center;
+}
+
+.carousel {
+	padding-top: 78px;
+	background: rgb(255, 255, 255, 0);
+	position: absolute;
+	height: 100%;
+}
+
+.carousel-control.left {
+    background-image: linear-gradient(to left, transparent 0px, rgba(0, 0, 0, 0.2) 100%);
+}
+
+.carousel-control.right {
+    background-image: linear-gradient(to right, transparent 0px, rgba(0, 0, 0, 0.2) 100%);
+}
+
+.carousel-control {
+	width: 12%;
+}
+
+.carousel-indicators {
+    position: fixed;
+    margin-bottom: 0px;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    left: 30%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 17.5px 2.5px;
+    text-indent: -999px;
+    cursor: pointer;
+    border: 1px solid rgb(88, 89, 93);
+    border-radius: 15px;
+}
+
+.active {
+	width: 100%;
+}
+
+.carousel-indicators .active {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 17.5px 2.5px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgb(88, 89, 93);
+    border: 1px solid rgb(88, 89, 93);
+    border-radius: 15px;
+}
 
 
-@media screen and (max-width: 1120px) {
+.item01 {
+    width: 900px;
+    padding-top: 78px;
+}
+
+.item-button {
+	margin: 120px auto 0;
+	width: 175px;
+	height: 40px;
+	border-radius: 2px;
+	text-align: center;
+	display: block;
+	background-color: rgb(215, 53, 52);
+	transition: 0.35s;
+}
+
+.item-button-text {
+	margin: 0;
+	padding: 12px 16px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	font-family: "Muller-Regular";
+	line-height: 40px;
+
+}
+
+.item-button:hover {
+	background-color: rgb(164, 40, 40);
+	text-decoration: none;
+}
+
+.item-button a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+
+@media screen and (max-width: 1115px) {
 	.header-menu-box {
 		display: none; /* скрыть все <li> пункты */
 	}
@@ -589,121 +562,10 @@ ul, li {
 		height: 400px;
 	}
 
-	.my-portfolio-box {
-		height: 100%;
-		padding-bottom: 75px;
+	.carousel {
+		padding-top: 75px;
 	}
 
-	.portfolio-preview {
-		display: none;
-	}
-
-	.portfolio-preview2 {
-		display: block;
-	}
-
-	.portfolio-info {
-		margin: 0;
-		width: 100%;
-		float: none;
-		text-align: center;
-	}
-
-	.portfolio-title {
-		float: none;
-		text-align: center;
-	}
-
-	.porfolio-text {
-		float: none;
-		text-align: center;
-   		padding: 0px 50px;
-	}
-
-	.open-portfolio-button {
-		float: none;
-	}
-
-
-	/*Contact-Box*/
-
-	.contact-container {
-		padding-top: 50px;
-		margin: 0px;
-		padding-right: 30px;
-		padding-left: 30px;
-		padding-bottom: 125px;
-	}
-	
-	.phone-container {
-		display: block;
-		text-align: center;
-		float: none;
-		margin: 15px auto;
-		width: auto;
-	}
-	
-	.mail-container {
-		display: block;
-		text-align: center;
-		float: none;
-		margin: 15px auto;
-		width: auto;
-	}
-	
-	.skype-container {
-		display: block;
-		text-align: center;
-		margin: 15px auto;
-		width: auto;
-	}
-
-	.phone-box {
-		width: 238px;
-		height: auto;
-		text-align: center;
-	}
-
-	.mail-box {
-		width: 290px;
-		height: auto;
-		text-align: center;
-		margin: 0px;
-	}
-
-	.skype-box {
-		width: 190px;
-		height: auto;
-		text-align: center;
-	}
-
-}
-
-
-@media screen and (max-width: 955px) {
-	
-	.skill-container{
-		display: none;
-	}
-
-	.about-me-container {
-		padding-bottom: 70px;
-	}
-
-	hr {
-		display: block;
-	}
-}
-
-@media screen and (max-width: 728px) {
-	
-	.footer-facebook {
-		display: none;
-	}
-
-	.footer-facebook2 {
-		display: inline-block;
-	}
 }
 
 @media screen and (max-width: 500px) {
@@ -717,18 +579,8 @@ ul, li {
 		width: 80%;
 	}
 
-	.avatar-text {
-
-	}
-
-	h1 {
-		padding-top: 175px;
-		font-size: 44px;
-	}
-
-	h2 {
-		font-size: 16px;
-
+	.carousel-indicators {
+	    margin-bottom: 0px;
 	}
 
 }

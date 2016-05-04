@@ -680,14 +680,14 @@ iframe {
 	margin-top: 20px;
 }
 
-.icon-ae {
+.icon-sketch {
 	font-size: 70px;
 	color: #9C9E9F;
 	display: inline-block;
 	margin-top: 20px;
 }
 
-.icon-id {
+.icon-js {
 	font-size: 70px;
 	color: #9C9E9F;
 	display: inline-block;
@@ -731,19 +731,19 @@ iframe {
 	color: rgb(88, 89, 93);
 }
 
-.ae-hover:hover .icon-ae {
+.sketch-hover:hover .icon-sketch {
 	color: rgb(88, 89, 93);
 }
 
-.ae-hover:hover {
+.sketch-hover:hover {
 	color: rgb(88, 89, 93);
 }
 
-.id-hover:hover .icon-id {
+.js-hover:hover .icon-js {
 	color: rgb(88, 89, 93);
 }
 
-.id-hover:hover {
+.js-hover:hover {
 	color: rgb(88, 89, 93);
 }
 
