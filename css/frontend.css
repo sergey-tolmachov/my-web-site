@@ -393,6 +393,23 @@ textarea.form-control {
 	height: 1080px;
 }
 
+.item-title {
+	padding-top: 78px;
+	display: block;
+	color: rgb(42, 42, 44);
+	font-size: 26px;
+	font-family: "Muller-Medium";
+}
+
+.item-dsc {
+	padding: 0% 15%;
+	padding-top: 15px;
+	display: block;
+	color: rgb(112, 113, 118);
+	font-size: 16px;
+	font-family: "Muller-Regular";
+}
+
 .my-slider02 {
 	display: block;
 	width: 100%;
@@ -476,11 +493,11 @@ textarea.form-control {
 
 .item01 {
     width: 900px;
-    padding-top: 78px;
+    padding-top: 25px;
 }
 
 .item-button {
-	margin: 120px auto 0;
+	margin: 75px auto 0;
 	width: 175px;
 	height: 40px;
 	border-radius: 2px;
