@@ -4,3 +4,8 @@ $(document).ready(function() {
 		$(".icon-menu").toggleClass("icon-menu-focus");
 	});
 });
+
+
+$('.carousel').carousel({
+  interval: 20000000
+})
