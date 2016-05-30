@@ -10,7 +10,7 @@ $date=date("d.m.y"); // число.месяц.год
  
 $time=date("H:i"); // часы:минуты:секунды 
  
-$backurl="http://tolmachov.website/forma-otpravki-test/index.html";  // На какую страничку переходит после отправки письма 
+$backurl="http://tolmachov.website/";  // На какую страничку переходит после отправки письма 
  
 //---------------------------------------------------------------------- // 
  
@@ -34,9 +34,8 @@ strtolower($email)))
  { 
  
   echo 
-"<center>Вернитесь <a 
-href='javascript:history.back(1)'><B>назад</B></a>. Вы 
-указали неверные данные!"; 
+"<center>Come <a 
+href='javascript:history.back(1)'><B>back</B></a>. input error!please, try again"; 
  
   } 
  
@@ -71,10 +70,10 @@ mail("$adminemail", "$date $time Сообщение
 // Выводим сообщение пользователю 
  
 print "<script language='Javascript'><!-- 
-function reload() {location = \"$backurl\"}; setTimeout('reload()', 3000); 
+function reload() {location = \"$backurl\"}; setTimeout('reload()', 2000); 
 //--></script>  
  
-<p>Сообщение отправлено! Подождите, сейчас вы будете перенаправлены на главную страницу...</p>";  
+<p>Success!Please, wait a few second...</p>";  
 exit; 
  
  } 

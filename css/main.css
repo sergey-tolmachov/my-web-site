@@ -483,7 +483,7 @@ h2 {
 	color: rgb(42, 42, 44);
 	font-size: 16px;
 	font-family: "Muller-Light";
-	margin-bottom: 25px;
+	margin-bottom: 75px;
 }
 
 .read-more-button {
@@ -883,7 +883,15 @@ ul, li {
 	padding: 15px 0px;
 }
 
+a:focus {
+	text-decoration: none;
+	color: white;
+}
 
+a:active {
+	text-decoration: none;
+	color: white;
+}
 
 
 @media screen and (max-width: 1120px) {

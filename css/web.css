@@ -217,7 +217,6 @@ li:hover span {
 	position: absolute;
 	right: 50px;
 	background-color: rgba(0,0,0,0);
-
 }
 
 .write-me {
@@ -389,11 +388,9 @@ textarea.form-control {
 	width: 100%;
 }
 
-/*Прокрутка на слайде*/
-
-/*.carousel-inner { 
+.carousel-inner {
 	height: 100%;
-}*/
+}
 
 .item {
 	width: 100%;
@@ -403,31 +400,52 @@ textarea.form-control {
 .my-slider01 {
 	display: block;
 	width: 100%;
+	height: auto;
+	padding-bottom: 115px;
+}
+
+.item-title {
+	padding-top: 78px;
+	padding-left: 15%;
+	padding-right: 15%;
+	display: block;
+	color: rgb(42, 42, 44);
+	font-size: 26px;
+	font-family: "Muller-Medium";
+}
+
+.item-dsc {
+	padding: 0% 15%;
+	padding-top: 15px;
+	display: block;
+	color: rgb(112, 113, 118);
+	font-size: 16px;
+	font-family: "Muller-Regular";
 }
 
 .my-slider02 {
 	display: block;
 	width: 100%;
+	height: auto;
+	padding-bottom: 115px;
 }
 
 .my-slider03 {
 	display: block;
 	width: 100%;
+	height: auto;
+	padding-bottom: 115px;
 }
 
 .my-slider04 {
 	display: block;
 	width: 100%;
-}
-
-.my-slider05 {
-	display: block;
-	width: 100%;
+	height: auto;
+	padding-bottom: 115px;
 }
 
 
 .item img {
-	width: 100%;
 	text-align: center;
 }
 
@@ -435,11 +453,7 @@ textarea.form-control {
 	padding-top: 78px;
 	background: rgb(255, 255, 255, 0);
 	position: absolute;
-	height: 100%;
-}
-
-.carousel-control {
-	width: 12%;
+	height: auto;
 }
 
 .carousel-control.left {
@@ -448,6 +462,10 @@ textarea.form-control {
 
 .carousel-control.right {
     background-image: linear-gradient(to right, transparent 0px, rgba(0, 0, 0, 0.2) 100%);
+}
+
+.carousel-control {
+	width: 12%;
 }
 
 .carousel-indicators {
@@ -488,6 +506,55 @@ textarea.form-control {
     border-radius: 15px;
 }
 
+
+.item01 {
+    width: 900px;
+    padding-top: 25px;
+}
+
+.item-button {
+	margin: 75px auto 0;
+	width: 175px;
+	height: 40px;
+	border-radius: 2px;
+	text-align: center;
+	display: block;
+	background-color: rgb(215, 53, 52);
+	transition: 0.35s;
+}
+
+.item-button-text {
+	margin: 0;
+	padding: 12px 32px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	font-family: "Muller-Regular";
+	line-height: 40px;
+
+}
+
+.item-button:hover {
+	background-color: rgb(164, 40, 40);
+	text-decoration: none;
+}
+
+.item-button a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+a:focus {
+	text-decoration: none;
+	color: white;
+}
+
+a:active {
+	text-decoration: none;
+	color: white;
+}
 
 @media screen and (max-width: 1115px) {
 	.header-menu-box {
@@ -543,6 +610,26 @@ textarea.form-control {
 
 }
 
+@media screen and (max-width: 900px) {
+
+	.item01 {
+	width: 100%;
+	}
+
+	.item-button {
+		margin-bottom: 125px;
+	}
+
+	.carousel {
+		height: auto;
+	}
+
+	.my-slider01, .my-slider02, .my-slider03, .my-slider04 {
+		height: auto;
+		padding-bottom: 0;
+	}
+
+}
 
 @media screen and (max-width: 500px) {
 
