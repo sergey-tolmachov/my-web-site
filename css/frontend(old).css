@@ -382,15 +382,36 @@ textarea.form-control {
 
 /* /Forms */
 
+/*Portfolio*/
+
+#carousel-example-generic {
+	width: 100%;
+}
+
+.carousel-inner {
+	height: 100%;
+}
+
+.item {
+	width: 100%;
+	text-align: center;
+}
+
+.my-slider01 {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding-bottom: 115px;
+}
+
 .item-title {
-	padding-top: 178px;
+	padding-top: 78px;
 	padding-left: 15%;
 	padding-right: 15%;
 	display: block;
 	color: rgb(42, 42, 44);
 	font-size: 26px;
 	font-family: "Muller-Medium";
-	text-align: center;
 }
 
 .item-dsc {
@@ -400,16 +421,131 @@ textarea.form-control {
 	color: rgb(112, 113, 118);
 	font-size: 16px;
 	font-family: "Muller-Regular";
+}
+
+.my-slider02 {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding-bottom: 115px;
+}
+
+.my-slider03 {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding-bottom: 115px;
+}
+
+.my-slider04 {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding-bottom: 115px;
+}
+
+
+.item img {
 	text-align: center;
 }
 
-.material-icons {
-	display: block;
-	font-size: 72px;
-	text-align: center;
-	padding-top: 75px;
-	color: rgb(112, 113, 118);
+.carousel {
+	padding-top: 78px;
+	background: rgb(255, 255, 255, 0);
+	position: absolute;
+	height: auto;
 }
+
+.carousel-control.left {
+    background-image: linear-gradient(to left, transparent 0px, rgba(0, 0, 0, 0.2) 100%);
+}
+
+.carousel-control.right {
+    background-image: linear-gradient(to right, transparent 0px, rgba(0, 0, 0, 0.2) 100%);
+}
+
+.carousel-control {
+	width: 12%;
+}
+
+.carousel-indicators {
+    position: fixed;
+    margin-bottom: 0px;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    left: 30%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 17.5px 2.5px;
+    text-indent: -999px;
+    cursor: pointer;
+    border: 1px solid rgb(88, 89, 93);
+    border-radius: 15px;
+}
+
+.active {
+	width: 100%;
+}
+
+.carousel-indicators .active {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 17.5px 2.5px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgb(88, 89, 93);
+    border: 1px solid rgb(88, 89, 93);
+    border-radius: 15px;
+}
+
+
+.item01 {
+    width: 900px;
+    padding-top: 25px;
+}
+
+.item-button {
+	margin: 75px auto 0;
+	width: 175px;
+	height: 40px;
+	border-radius: 2px;
+	text-align: center;
+	display: block;
+	background-color: rgb(215, 53, 52);
+	transition: 0.35s;
+}
+
+.item-button-text {
+	margin: 0;
+	padding: 12px 16px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	font-family: "Muller-Regular";
+	line-height: 40px;
+
+}
+
+.item-button:hover {
+	background-color: rgb(164, 40, 40);
+	text-decoration: none;
+}
+
+.item-button a:hover {
+	color: white;
+	text-decoration: none;
+}
+
 
 a:focus {
 	text-decoration: none;
@@ -469,10 +605,32 @@ a:active {
 		height: 400px;
 	}
 
+	.carousel {
+		padding-top: 75px;
+	}
 
 }
 
+@media screen and (max-width: 900px) {
 
+	.item01 {
+	width: 100%;
+	}
+
+	.item-button {
+		margin-bottom: 125px;
+	}
+
+	.carousel {
+		height: auto;
+	}
+
+	.my-slider01, .my-slider02, .my-slider03, .my-slider04 {
+		height: auto;
+		padding-bottom: 0;
+	}
+
+}
 
 @media screen and (max-width: 500px) {
 
@@ -485,6 +643,9 @@ a:active {
 		width: 80%;
 	}
 
+	.carousel-indicators {
+	    margin-bottom: 0px;
+	}
 
 }
 
