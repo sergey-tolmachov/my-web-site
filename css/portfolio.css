@@ -1,8 +1,3 @@
-body {
-	background-color: rgb(237, 237, 237);
-}
-
-
 /*Header*/
 
 .header-container {
@@ -43,13 +38,7 @@ img.avatar {
 }
 
 .avatar-text {
-	margin: 17.5px 0px 17.5px 10px;
-	text-transform: uppercase;
-	font-family: "Muller-Regular";
-	font-size: 14px;
 	color: rgb(42, 42, 44);
-	position: absolute;
-	display: inline-block;
 }
 
 .header-menu-box {
@@ -100,58 +89,9 @@ li:hover span {
 
 /*Icons on header*/
 
-.icon-home {
-	font-size: 25px;
-	color: rgb(42, 42, 44);
-	display: block;
-	padding-bottom: 13px;
-}
-
-.icon-ui {
-	font-size: 25px;
-	color: rgb(215, 53, 52);
-	display: block;
-	padding-bottom: 13px;
-}
-
-.icon-web {
-	font-size: 25px;
-	color: rgb(42, 42, 44);
-	display: block;
-	padding-bottom: 13px;
-}
-
-.icon-frontend {
-	font-size: 25px;
-	color: rgb(42, 42, 44);
-	display: block;	
-	padding-bottom: 13px;
-}
-
-.icon-logo {
-	font-size: 25px;
-	color: rgb(42, 42, 44);
-	display: block;
-	padding-bottom: 13px;
-}
-
-.icon-other {
-	font-size: 25px;
-	color: rgb(42, 42, 44);
-	display: block;
-	padding-bottom: 13px;
-}
-
-.icon-contact {
-	font-size: 25px;
-	color: rgb(42, 42, 44);
-	display: block;
-	padding-bottom: 13px;
-}
-
 .icon-menu {
 	font-size: 25px;
-	color: white;
+	color: rgb(42, 42, 44);
 	display: none;
 	position: absolute;
 	right: 50px;
@@ -161,7 +101,7 @@ li:hover span {
 
 .icon-menu-focus {
 	font-size: 25px;
-	color: white;
+	color: rgb(42, 42, 44);
 	display: block;
 	position: absolute;
 	right: 50px;
@@ -201,6 +141,9 @@ li:hover span {
 	color: rgb(215, 53, 52);;
 }
 
+.current a:focus {
+	color: rgb(215, 53, 52);;
+}
 
 .write-me-button-container {
 	position: absolute;
@@ -216,7 +159,7 @@ li:hover span {
 	height: 30px;
 	margin: 22.5px 0px;
 	border-radius: 2px;
-	border: 1px solid rgb(42, 42, 44);
+	border: 1px solid rgb(215, 53, 52);
 	transition: 0.35s;
 	position: absolute;
 	right: 50px;
@@ -232,7 +175,7 @@ li:hover span {
 	font-size: 12px;
 	font-family: "Muller-Regular";
 	line-height: 30px;
-	color: rgb(42, 42, 44);
+	color: rgb(215, 53, 52);
 }
 
 .write-me:hover {
@@ -242,8 +185,8 @@ li:hover span {
 
 .write-me-button:hover {
 	border-radius: 2px;
-	border: 1px solid rgb(42, 42, 44);
-	background-color: rgb(42, 42, 44);	
+	border: 1px solid rgb(215, 53, 52);
+	background-color: rgb(215, 53, 52);	
 }
 
 .write-me-button-container .btn-lg {
@@ -273,7 +216,7 @@ li:hover span {
     z-index: 999;
     transform: translateY(75px);
     height: 0;
-    background-color: rgb(112, 113, 118);
+    background-color: #EEEEEE;
     overflow: hidden;
     -webkit-transition: height ease-out 0.3s;
      -moz-transition: height ease-out 0.3s;
@@ -295,7 +238,7 @@ li:hover span {
 .header-menu2 li {
 	display: block;
 	height: 50px;
-	border-bottom: 1px solid rgb(88, 89, 93);
+	border-bottom: 1px solid #BDBDBD;
 }
 
 .header-menu2 a {
@@ -311,7 +254,11 @@ li:hover span {
 }
 
 .write-me-button2 {
-	background-color: rgb(88, 89, 93);
+	background-color: rgb(215, 53, 52);
+}
+
+.write-me-button2 a {
+	color: white;
 }
 
 /*Forms*/
@@ -385,94 +332,10 @@ textarea.form-control {
     filter: blur(5px);    
 }
 
-/* /Forms */
-
 /*Portfolio*/
 
-#carousel-example-generic {
-	width: 100%;
-}
-
-.carousel-inner {
-	height: 100%;
-}
-
-.item {
-	width: 100%;
-	text-align: center;
-}
-
-.my-slider01 {
-	display: block;
-	width: 100%;
-	height: 1080px;
-	background: url(../portfolio-preview/ui/01.jpg) no-repeat center center fixed;
-	background-size: cover;
-}
-
-.my-slider02 {
-	display: block;
-	width: 100%;
-	height: 1080px;
-	background: url(../portfolio-preview/ui/02.jpg) no-repeat center center fixed;
-	background-size: cover;
-}
-
-.my-slider03 {
-	display: block;
-	width: 100%;
-	height: 1080px;
-	background: url(../portfolio-preview/ui/03.jpg) no-repeat center center fixed;
-	background-size: cover;
-}
-
-.my-slider04 {
-	display: block;
-	width: 100%;
-	height: 1080px;
-	background: url(../portfolio-preview/ui/04.jpg) no-repeat center center fixed;
-	background-size: cover;
-}
-
-.my-slider05 {
-	display: block;
-	width: 100%;
-	height: 1080px;
-	background: url(../portfolio-preview/ui/05.jpg) no-repeat center center fixed;
-	background-size: cover;
-}
-
-.my-slider06 {
-	display: block;
-	width: 100%;
-	height: 1080px;
-	background: url(../portfolio-preview/ui/06.jpg) no-repeat center center fixed;
-	background-size: cover;
-}
-
-.my-slider07 {
-	display: block;
-	width: 100%;
-	height: 1080px;
-	background: url(../portfolio-preview/ui/07.jpg) no-repeat center center fixed;
-	background-size: cover;
-}
-
-.my-slider08 {
-	display: block;
-	width: 100%;
-	height: 1080px;
-	background: url(../portfolio-preview/ui/08.jpg) no-repeat center center fixed;
-	background-size: cover;
-}
-
-.item img {
-	width: 100%;
-	text-align: center;
-}
 
 .carousel {
-	padding-top: 0px;
 	background: rgb(255, 255, 255, 0);
 	position: absolute;
 	height: 100%;

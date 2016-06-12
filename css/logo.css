@@ -127,7 +127,7 @@ li:hover span {
 
 .icon-logo {
 	font-size: 25px;
-	color: white;
+	color: rgb(215, 53, 52);
 	display: block;
 	padding-bottom: 13px;
 }
@@ -467,7 +467,7 @@ textarea.form-control {
 }
 
 .carousel {
-	padding-top: 78px;
+	padding-top: 0px;
 	background: rgb(255, 255, 255, 0);
 	position: absolute;
 	height: 100%;
