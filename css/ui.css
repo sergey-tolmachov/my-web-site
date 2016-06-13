@@ -132,6 +132,14 @@ body {
 	background-size: cover;
 }
 
+.my-slider09 {
+	display: block;
+	width: 100%;
+	height: 1080px;
+	background: url(../portfolio-preview/ui/09.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
 .item img {
 	width: 100%;
 	text-align: center;

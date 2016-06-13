@@ -82,6 +82,14 @@ body {
 	color: rgb(112, 113, 118);
 }
 
+.work-icon {
+	display: block;
+	width: 72px;
+	text-align: center;
+	padding-top: 75px;
+	margin: 0 auto;
+}
+
 @media screen and (max-width: 1120px) {
 
 
