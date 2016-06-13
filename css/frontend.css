@@ -98,6 +98,9 @@ body {
 
 
 @media screen and (max-width: 540px) {
+	.item-title {
+		padding-top: 125px;
+	}
 }
 
 

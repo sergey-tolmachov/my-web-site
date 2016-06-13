@@ -114,7 +114,8 @@ h2 {
 	color: rgb(255, 255, 255);
 	font-size: 14px;
 	font-family: "Muller-Regular";
-	line-height: 40px;
+	line-height: 42px;
+	letter-spacing: 1px;
 
 }
 
@@ -225,7 +226,7 @@ iframe {
 	width: 355px;
 	display: inline-block;
 	float: right;
-	margin-right: 50px;
+	margin-right: 15%;
 }
 
 .portfolio-title {
@@ -266,10 +267,12 @@ iframe {
 	text-decoration: none;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 18px;
+	font-size: 14px;
 	color: rgb(255, 255, 255);
 	font-family: "Muller-Regular";
-	line-height: 40px;
+	line-height: 42px;
+	letter-spacing: 1px;
+	padding: 12px 24px;
 }
 
 .open-portfolio-button:hover {
@@ -573,7 +576,7 @@ a:active {
 }
 
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1260px) {
 
 	.my-portfolio-box {
 		height: 100%;
@@ -610,10 +613,13 @@ a:active {
 		float: none;
 	}
 
+}
+
+@media screen and (max-width: 1120px) {
+	
 	.skill-container{
 		display: none;
 	}
-
 }
 
 @media screen and (max-width: 728px) {

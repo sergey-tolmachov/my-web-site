@@ -462,6 +462,9 @@ a:active {
 }
 
 @media screen and (max-width: 540px) {
+	.form-title {
+		padding-top: 125px;
+	}
 }
 
 
