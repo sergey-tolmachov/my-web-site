@@ -6,6 +6,14 @@ $(document).ready(function() {
 });
 
 
-$('.carousel').carousel({
-  interval: 20000000
-})
+// $('.carousel').carousel({
+//   interval: 2000
+// })
+
+
+$(document).ready(function() {
+    setTimeout(function() {
+        $('#help').fadeOut(600);
+    },2650);
+});
+
