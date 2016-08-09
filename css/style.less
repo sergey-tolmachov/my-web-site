@@ -4,5 +4,135 @@
 @grey: #9e9e9e;
 @light-grey: #e0e0e0;
 @lightblue: #62b4f3;
-@white-two: #ffffff;
+@white: #ffffff;
 @dark-blue: #2c536f;
+
+@fontFamily: 'Lato', sans-serif;
+
+@titleSize: 40px;
+@titleWeight: 700;
+
+@textSize: 16px;
+@textWeight: 200;
+
+@padding: 40px;
+
+
+.title {
+	font-family: @fontFamily;
+	font-size: @titleSize;
+	font-weight: @titleWeight;
+	color: @dark-grey;
+}
+
+.text-white {
+	font-family: @fontFamily;
+	font-size: @textSize;
+	font-weight: @textWeight;
+	color: @white;
+}
+
+.text-grey {
+	font-family: @fontFamily;
+	font-size: @textSize;
+	font-weight: @textWeight;
+	color: @dark-grey;
+}
+
+
+.header-container {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 999999;
+    background-color: transparent;
+    
+    .logo-box {
+        display: inline-block;
+        width: 100px;
+        height: 80px;
+        padding-left: @padding;
+        
+        .logo {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            margin: 20px 0px;
+            background: url(../img/avatar.png) no-repeat center center;
+        }
+        
+        .logo-text {
+            display: inline-block;
+            position: absolute;
+            padding: 27px 0px 20px 15px;
+            width: auto;
+            height: 80px;
+            .text-white;
+            
+            .blog-link {
+                color: @white * 0.6;
+            }
+            
+            .blog-link:hover {
+                color: @lightblue;
+            }
+        }
+    }
+    
+    nav {
+        display: inline-block;
+        width: auto;
+        height: 80px;
+        float: right;
+        padding-right: @padding;
+        
+        li {
+            display: inline-block;
+            padding-top: 27px;
+            padding-left: 30px;
+            
+            a {
+                .text-white
+            }
+            
+            a:hover {
+                color: @lightblue;
+            }
+        }
+    }
+}
+
+.cover-container {
+    display: block;
+    width: 100%;
+    height: 600px;
+    top: 0;
+    background: url(../img/cover.png) no-repeat center center;
+    background-size: cover;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

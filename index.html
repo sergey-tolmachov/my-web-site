@@ -6,6 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
 	
+    <!--Fonts-->
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	
 	<link rel="stylesheet" href="css/style.css">
 
 	<title>Sergey Tolmachov</title>
@@ -20,13 +23,38 @@
 
 <body>
 
-	<div class="container">
-
+	<div class="header-container">
+        <div class="logo-box">
+            <div class="logo"></div>
+            <span class="logo-text">Sergey Tolmachov / <a href="http://blog.tolmachov.website" target="_blank" class="blog-link">Blog</a></span>
+        </div>
+        <nav>
+            <li><a href="#">home</a></li>
+            <li><a href="#">portfolio</a><div class="portfolio-drop-down-icon"></div></li>
+            <li><a href="#">contact me</a></li>
+        </nav>
+	</div>
+	
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+    portfolio
+    <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+    </ul>
+  </div>
+	
+	<div class="cover-container">
+	    
 	</div>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<scropt src="js/script.js"></scropt>
+	
+	<script src="js/script.js"></script>
 
 	<script>
 	</script>
