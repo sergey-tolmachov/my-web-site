@@ -11,13 +11,14 @@ body {
     background-size: cover;
 }
 
-.wrapper {
+.gradient-bg {
     display: block;
+    position: absolute;
     width: 100%;
     height: 100%;
     background: linear-gradient(0deg, #62b4f3, #2c536f);
     background-size: 400% 400%;
-    opacity: 0.5;
+    z-index: -10;
 
     -webkit-animation: AnimationName 11s ease infinite;
     -moz-animation: AnimationName 11s ease infinite;
@@ -46,6 +47,16 @@ body {
     }
 }
 
+.photo-bg {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../img/big-avatar-bg.jpg) no-repeat top center;
+    background-size: cover;
+    z-index: -9;
+    opacity: 0.05;
+}
 
 .left-box {
     display: inline-block;
@@ -71,7 +82,7 @@ body {
         border: solid @white 1px;
         border-radius: 40px;
         background-color: transparent;
-        padding-top: 10px;
+        padding-top: 8px;
         text-align: center;
         .text-white
     }
@@ -82,14 +93,60 @@ body {
     }
 }
 
+.right-box {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    float: right;
+    padding: 196px 172px 0px 0px;
+//    -webkit-backdrop-filter: blur(10px);
+    
+    form {
+        display: block;
+        position: inherit;
+        
+        .form-control {
+            border-radius: 0;
+            border: none;
+            border-bottom: solid @white-rgba 1px;
+            background-color: transparent;
+            font-family: @fontFamily;
+            font-size: @textSize;
+            font-weight: @textWeight;
+            color: @white;
+            box-shadow: none;
+            padding-left: 0;
+            padding-top: 0px;
+            margin-top: 24px;
+        }
+        
+        .btn-send {
+            border: none;
+            float: right;
+            display: block;
+            width: 122px;
+            height: 40px;
+            margin: auto;
+            margin-top: 80px;
+            border: solid @white 1px;
+            border-radius: 40px;
+            background-color: transparent;
+            padding-top: 2px;
+            text-align: center;
+            .text-white
+        }
+        
+        .btn-send:hover {
+            background-color: @white;
+            color: @lightblue;
+        }
+    }
+}
 
-
-
-
-
-
-
-
+.form-control::-webkit-input-placeholder { color: @white-rgba; }
+.form-control:-moz-placeholder { color: @white-rgba; }
+.form-control::-moz-placeholder { color: @white-rgba; }
+.form-control:-ms-input-placeholder { color: @white-rgba; }
 
 
 

@@ -178,13 +178,14 @@ body {
   background: url(../img/big-avatar-bg.jpg) no-repeat center top;
   background-size: cover;
 }
-.wrapper {
+.gradient-bg {
   display: block;
+  position: absolute;
   width: 100%;
   height: 100%;
   background: linear-gradient(0deg, #62b4f3, #2c536f);
   background-size: 400% 400%;
-  opacity: 0.5;
+  z-index: -10;
   -webkit-animation: AnimationName 11s ease infinite;
   -moz-animation: AnimationName 11s ease infinite;
   -o-animation: AnimationName 11s ease infinite;
@@ -234,6 +235,16 @@ body {
     background-position: 50% 0%;
   }
 }
+.photo-bg {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(../img/big-avatar-bg.jpg) no-repeat top center;
+  background-size: cover;
+  z-index: -9;
+  opacity: 0.05;
+}
 .left-box {
   display: inline-block;
   width: 50%;
@@ -257,7 +268,7 @@ body {
   border: solid #ffffff 1px;
   border-radius: 40px;
   background-color: transparent;
-  padding-top: 10px;
+  padding-top: 8px;
   text-align: center;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -267,4 +278,63 @@ body {
 .left-box .social-btn:hover {
   background-color: #ffffff;
   color: #62b4f3;
+}
+.right-box {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  float: right;
+  padding: 196px 172px 0px 0px;
+}
+.right-box form {
+  display: block;
+  position: inherit;
+}
+.right-box form .form-control {
+  border-radius: 0;
+  border: none;
+  border-bottom: solid rgba(255, 255, 255, 0.6) 1px;
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: #ffffff;
+  box-shadow: none;
+  padding-left: 0;
+  padding-top: 0px;
+  margin-top: 24px;
+}
+.right-box form .btn-send {
+  border: none;
+  float: right;
+  display: block;
+  width: 122px;
+  height: 40px;
+  margin: auto;
+  margin-top: 80px;
+  border: solid #ffffff 1px;
+  border-radius: 40px;
+  background-color: transparent;
+  padding-top: 2px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: #ffffff;
+}
+.right-box form .btn-send:hover {
+  background-color: #ffffff;
+  color: #62b4f3;
+}
+.form-control::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.form-control:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.form-control::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.form-control:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
 }
