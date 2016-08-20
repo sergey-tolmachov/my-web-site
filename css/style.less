@@ -18,6 +18,9 @@
 
 @padding: 40px;
 
+@skillborder: 122px;
+@skillSpead: 0.6s;
+
 body {
     color: @white;
 }
@@ -211,10 +214,321 @@ a:focus {
 //    display: block;
 //}
 
+.about-me-container {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding-top: 120px;
+    
+    .text-box {
+        display: block;
+        .about-me-title {
+            padding-left: @padding;
+            .title
+        }
+        
+        .about-me-text {
+            display: inline-block;
+            padding-left: @padding;
+            padding-top: 30px;
+            .text-grey
+        }
+    }
+    
+    .video-box {
+        display: block;
+        padding-left: 120px;
+        padding-right: @padding;
+        
+        iframe {
+            display: block;
+            width: 100%;
+            height: 320px;
+            margin-top: 82px;
+        }
+    }
+}
 
 
+.skills-container {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 240px;
+    text-align: center;
+    
+    .skills-title {
+        display: block;
+        width: 100%;
+        padding: 0 @padding;
+        margin: auto;
+        .title
+    }
+    
+    li {
+        display: inline-block;
+        width: 130px;
+        height: 130px;
+        margin: 105px 15px 240px 15px;
+        border-radius: 50%;
+        padding: 4px;
+        
+        @-webkit-keyframes spin {
+            from { -webkit-transform: rotate(0deg); }
+            to { -webkit-transform: rotate(360deg); }
+        }
+
+        @-moz-keyframes spin {
+            from { -moz-transform: rotate(0deg); }
+            to { -moz-transform: rotate(360deg); }
+        }
+
+        @-ms-keyframes spin {
+            from { -ms-transform: rotate(0deg); }
+            to { -ms-transform: rotate(360deg); }
+        }
+        
+        &.ps {
+            background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, #27bce9 0%, #151630 100%);
+            background-image: -webkit-radial-gradient(45px 45px, circle cover, #27bce9, #151630);
+            background-image: radial-gradient(45px 45px 45deg, circle cover, #27bce9 0%, #151630 100%);
 
 
+            /* webkit chrome, safari, mobile */
+            -webkit-animation-name: spin; 
+            -webkit-animation-duration: @skillSpead; /* 3 seconds */
+            -webkit-animation-iteration-count: 1; 
+            -webkit-animation-timing-function: linear;
+
+            /* mozilla ff */
+            -moz-animation-name: spin; 
+            -moz-animation-duration: @skillSpead; /* 3 seconds */
+            -moz-animation-iteration-count: 1; 
+            -moz-animation-timing-function: linear;
+
+            /* microsoft ie */
+            -ms-animation-name: spin; 
+            -ms-animation-duration: @skillSpead; /* 3 seconds */
+            -ms-animation-iteration-count: 1; 
+            -ms-animation-timing-function: linear;
+            
+            .test {
+                display: block;
+                width: @skillborder;
+                height: @skillborder;
+                background-color: white;
+                border-radius: 50%;
+            }
+        }
+        
+        &.ai {
+            background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, #f0761e 0%, #271301 100%);
+            background-image: -webkit-radial-gradient(45px 45px, circle cover, #f0761e, #271301);
+            background-image: radial-gradient(45px 45px 45deg, circle cover, #f0761e 0%, #271301 100%);
 
 
+            /* webkit chrome, safari, mobile */
+            -webkit-animation-name: spin; 
+            -webkit-animation-duration: @skillSpead; /* 3 seconds */
+            -webkit-animation-iteration-count: 1; 
+            -webkit-animation-timing-function: linear;
+
+            /* mozilla ff */
+            -moz-animation-name: spin; 
+            -moz-animation-duration: @skillSpead; /* 3 seconds */
+            -moz-animation-iteration-count: 1; 
+            -moz-animation-timing-function: linear;
+
+            /* microsoft ie */
+            -ms-animation-name: spin; 
+            -ms-animation-duration: @skillSpead; /* 3 seconds */
+            -ms-animation-iteration-count: 1; 
+            -ms-animation-timing-function: linear;
+            
+            .test {
+                display: block;
+                width: @skillborder;
+                height: @skillborder;
+                background-color: white;
+                border-radius: 50%;
+            }
+        }
+        
+        &.sketch {
+            background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, #fdd36a 0%, #ec6a11 100%);
+            background-image: -webkit-radial-gradient(45px 45px, circle cover, #fdd36a, #ec6a11);
+            background-image: radial-gradient(45px 45px 45deg, circle cover, #fdd36a 0%, #ec6a11 100%);
+
+
+            /* webkit chrome, safari, mobile */
+            -webkit-animation-name: spin; 
+            -webkit-animation-duration: @skillSpead; /* 3 seconds */
+            -webkit-animation-iteration-count: 1; 
+            -webkit-animation-timing-function: linear;
+
+            /* mozilla ff */
+            -moz-animation-name: spin; 
+            -moz-animation-duration: @skillSpead; /* 3 seconds */
+            -moz-animation-iteration-count: 1; 
+            -moz-animation-timing-function: linear;
+
+            /* microsoft ie */
+            -ms-animation-name: spin; 
+            -ms-animation-duration: @skillSpead; /* 3 seconds */
+            -ms-animation-iteration-count: 1; 
+            -ms-animation-timing-function: linear;
+            
+            .test {
+                display: block;
+                width: @skillborder;
+                height: @skillborder;
+                background-color: white;
+                border-radius: 50%;
+            }
+        }
+        
+        &.invision {
+            background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, #dc395f 0%, #27070f 100%);
+            background-image: -webkit-radial-gradient(45px 45px, circle cover, #dc395f, #27070f);
+            background-image: radial-gradient(45px 45px 45deg, circle cover, #dc395f 0%, #27070f 100%);
+
+
+            /* webkit chrome, safari, mobile */
+            -webkit-animation-name: spin; 
+            -webkit-animation-duration: @skillSpead; /* 3 seconds */
+            -webkit-animation-iteration-count: 1; 
+            -webkit-animation-timing-function: linear;
+
+            /* mozilla ff */
+            -moz-animation-name: spin; 
+            -moz-animation-duration: @skillSpead; /* 3 seconds */
+            -moz-animation-iteration-count: 1; 
+            -moz-animation-timing-function: linear;
+
+            /* microsoft ie */
+            -ms-animation-name: spin; 
+            -ms-animation-duration: @skillSpead; /* 3 seconds */
+            -ms-animation-iteration-count: 1; 
+            -ms-animation-timing-function: linear;
+            
+            .test {
+                display: block;
+                width: @skillborder;
+                height: @skillborder;
+                background-color: white;
+                border-radius: 50%;
+            }
+        }
+        
+        &.html5 {
+            background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, #f3652f 0%, #722f16 100%);
+            background-image: -webkit-radial-gradient(45px 45px, circle cover, #f3652f, #722f16);
+            background-image: radial-gradient(45px 45px 45deg, circle cover, #f3652f 0%, #722f16 100%);
+
+
+            /* webkit chrome, safari, mobile */
+            -webkit-animation-name: spin; 
+            -webkit-animation-duration: @skillSpead; /* 3 seconds */
+            -webkit-animation-iteration-count: 1; 
+            -webkit-animation-timing-function: linear;
+
+            /* mozilla ff */
+            -moz-animation-name: spin; 
+            -moz-animation-duration: @skillSpead; /* 3 seconds */
+            -moz-animation-iteration-count: 1; 
+            -moz-animation-timing-function: linear;
+
+            /* microsoft ie */
+            -ms-animation-name: spin; 
+            -ms-animation-duration: @skillSpead; /* 3 seconds */
+            -ms-animation-iteration-count: 1; 
+            -ms-animation-timing-function: linear;
+            
+            .test {
+                display: block;
+                width: @skillborder;
+                height: @skillborder;
+                background-color: white;
+                border-radius: 50%;
+            }
+        }
+        
+        &.css3 {
+            background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, #62b4f3 0%, #2e5572 100%);
+            background-image: -webkit-radial-gradient(45px 45px, circle cover, #62b4f3, #2e5572);
+            background-image: radial-gradient(45px 45px 45deg, circle cover, #62b4f3 0%, #2e5572 100%);
+
+
+            /* webkit chrome, safari, mobile */
+            -webkit-animation-name: spin; 
+            -webkit-animation-duration: @skillSpead; /* 3 seconds */
+            -webkit-animation-iteration-count: 1; 
+            -webkit-animation-timing-function: linear;
+
+            /* mozilla ff */
+            -moz-animation-name: spin; 
+            -moz-animation-duration: @skillSpead; /* 3 seconds */
+            -moz-animation-iteration-count: 1; 
+            -moz-animation-timing-function: linear;
+
+            /* microsoft ie */
+            -ms-animation-name: spin; 
+            -ms-animation-duration: @skillSpead; /* 3 seconds */
+            -ms-animation-iteration-count: 1; 
+            -ms-animation-timing-function: linear;
+            
+            .test {
+                display: block;
+                width: @skillborder;
+                height: @skillborder;
+                background-color: white;
+                border-radius: 50%;
+            }
+        }
+        
+        &.js {
+            background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, #fcdf6b 0%, #7d6e35 100%);
+            background-image: -webkit-radial-gradient(45px 45px, circle cover, #fcdf6b, #7d6e35);
+            background-image: radial-gradient(45px 45px 45deg, circle cover, #fcdf6b 0%, #7d6e35 100%);
+
+
+            /* webkit chrome, safari, mobile */
+            -webkit-animation-name: spin; 
+            -webkit-animation-duration: @skillSpead; /* 3 seconds */
+            -webkit-animation-iteration-count: 1; 
+            -webkit-animation-timing-function: linear;
+
+            /* mozilla ff */
+            -moz-animation-name: spin; 
+            -moz-animation-duration: @skillSpead; /* 3 seconds */
+            -moz-animation-iteration-count: 1; 
+            -moz-animation-timing-function: linear;
+
+            /* microsoft ie */
+            -ms-animation-name: spin; 
+            -ms-animation-duration: @skillSpead; /* 3 seconds */
+            -ms-animation-iteration-count: 1; 
+            -ms-animation-timing-function: linear;
+            
+            .test {
+                display: block;
+                width: @skillborder;
+                height: @skillborder;
+                background-color: white;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
 
