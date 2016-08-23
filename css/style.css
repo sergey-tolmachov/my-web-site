@@ -32,9 +32,10 @@ body {
 }
 .header-container .logo-box {
   display: inline-block;
-  width: 100px;
+  position: relative;
+  width: auto;
   height: 80px;
-  padding-left: 40px;
+  padding-left: 60px;
 }
 .header-container .logo-box .logo {
   display: inline-block;
@@ -45,17 +46,18 @@ body {
 }
 .header-container .logo-box .logo-text {
   display: inline-block;
-  position: absolute;
-  padding: 27px 0px 20px 15px;
+  padding: 30px 0px 20px 30px;
   width: auto;
   height: 80px;
+  float: right;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: 200;
   color: #ffffff;
+  color: #999999;
 }
 .header-container .logo-box .logo-text .blog-link {
-  color: #999999;
+  color: #ffffff;
 }
 .header-container .logo-box .logo-text .blog-link:hover {
   color: #62b4f3;
@@ -65,7 +67,7 @@ body {
   width: auto;
   height: 80px;
   float: right;
-  padding-right: 40px;
+  padding-right: 60px;
 }
 .header-container nav li {
   display: inline-block;
@@ -84,9 +86,9 @@ body {
 .cover-container {
   display: block;
   width: 100%;
-  height: 600px;
+  height: 640px;
   top: 0;
-  background: url(../img/cover.png) no-repeat center center;
+  background: url(../img/cover.jpg) no-repeat center center;
   background-size: cover;
   text-align: center;
 }
@@ -159,6 +161,7 @@ a:hover {
   padding: 0px 165px 13px 0px;
   top: 0;
   margin-top: 0;
+  transition: all 1s;
 }
 .dropdown-menu .drop-item a {
   padding: 0;
@@ -180,7 +183,7 @@ a:focus {
   display: block;
 }
 .about-me-container .text-box .about-me-title {
-  padding-left: 40px;
+  padding-left: 60px;
   font-family: 'Lato', sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -188,7 +191,7 @@ a:focus {
 }
 .about-me-container .text-box .about-me-text {
   display: inline-block;
-  padding-left: 40px;
+  padding-left: 60px;
   padding-top: 30px;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -198,7 +201,7 @@ a:focus {
 .about-me-container .video-box {
   display: block;
   padding-left: 120px;
-  padding-right: 40px;
+  padding-right: 60px;
 }
 .about-me-container .video-box iframe {
   display: block;
@@ -216,7 +219,7 @@ a:focus {
 .skills-container .skills-title {
   display: block;
   width: 100%;
-  padding: 0 40px;
+  padding: 0 60px;
   margin: auto;
   font-family: 'Lato', sans-serif;
   font-size: 40px;
