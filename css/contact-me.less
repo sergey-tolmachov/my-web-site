@@ -52,10 +52,15 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url(../img/big-avatar-bg.jpg) no-repeat top center;
+    background: url(../img/big-avatar-bg.jpg) no-repeat center center;
     background-size: cover;
     z-index: -9;
-    opacity: 0.05;
+    opacity: 0.1;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
 }
 
 .left-box {
@@ -84,6 +89,7 @@ body {
         background-color: transparent;
         padding-top: 8px;
         text-align: center;
+        transition: all @hoverspead;
         .text-white
     }
     
@@ -98,8 +104,15 @@ body {
     width: 50%;
     height: auto;
     float: right;
-    padding: 196px 172px 0px 0px;
+    padding: 180px 172px 0px 0px;
 //    -webkit-backdrop-filter: blur(10px);
+    
+    .form-title {
+        font-family: @fontFamily;
+        font-size: @titleSize;
+        font-weight: @titleWeight;
+        color: @white;
+    }
     
     form {
         display: block;
@@ -133,6 +146,7 @@ body {
             background-color: transparent;
             padding-top: 2px;
             text-align: center;
+            transition: all @hoverspead;
             .text-white
         }
         

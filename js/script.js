@@ -4,17 +4,27 @@
 //  $('.dropdown-menu').fadeOut(700);
 //});
 
-
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
-     //>=, not <=
-    if (scroll >= 955) {
-        //clearHeader, not clearheader - caps H
-        $(".animated").addClass("rotateIn show");
+    if (scroll >= 320) {
+        $(".text-box").addClass("animated fadeInLeft show");
+        $(".video-box").addClass("animated fadeInRight show");
     }
 //    
 //    else {
 //        $(".animated").addClass("hide");
 //    }
-}); //missing );
+});
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 985) {
+        $(".skill-item").addClass("animated rotateIn show");
+    }
+//    
+//    else {
+//        $(".animated").addClass("hide");
+//    }
+});
