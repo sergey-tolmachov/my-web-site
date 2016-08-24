@@ -7,7 +7,7 @@
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 320) {
+    if (scroll >= 310) {
         $(".text-box").addClass("animated fadeInLeft show");
         $(".video-box").addClass("animated fadeInRight show");
     }
@@ -27,4 +27,10 @@ $(window).scroll(function() {
 //    else {
 //        $(".animated").addClass("hide");
 //    }
+});
+
+
+$(window).ready(function() {
+    $(".right-box").addClass("animated rotateIn");
+    }
 });

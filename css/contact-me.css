@@ -88,7 +88,7 @@ body {
 .cover-container {
   display: block;
   width: 100%;
-  height: 640px;
+  height: 740px;
   top: 0;
   background: url(../img/cover.jpg) no-repeat center center;
   background-size: cover;
@@ -96,7 +96,7 @@ body {
 }
 .cover-container .cover-title {
   display: block;
-  padding: 230px 40px 0px 40px;
+  padding: 250px 40px 0px 40px;
   font-family: 'Lato', sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -183,7 +183,7 @@ a:focus {
   padding-top: 120px;
 }
 .about-me-container .text-box {
-  display: block;
+  display: none;
 }
 .about-me-container .text-box .about-me-title {
   padding-left: 60px;
@@ -202,7 +202,7 @@ a:focus {
   color: #424242;
 }
 .about-me-container .video-box {
-  display: block;
+  display: none;
   padding-left: 120px;
   padding-right: 60px;
 }
@@ -299,6 +299,9 @@ ul {
 }
 .show {
   display: block;
+}
+.show2 {
+  visibility: visible;
 }
 html {
   height: 100%;
