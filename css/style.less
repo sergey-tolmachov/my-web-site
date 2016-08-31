@@ -52,7 +52,7 @@ body {
 
 .header-container {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
     height: 80px;
@@ -125,13 +125,14 @@ body {
     width: 100%;
     height: 740px;
     top: 0;
-    background: url(../img/cover.jpg) no-repeat center center;
+    background: url(../img/cover.jpg) no-repeat center center fixed;
     background-size: cover;
     text-align: center;
+    padding-top: 250px;
     
     .cover-title {
         display: block;
-        padding: 250px 40px 0px 40px;
+        padding: 0px 40px 0px 40px;
         font-family: @fontFamily;
         font-size: @titleSize;
         font-weight: @titleWeight;
@@ -174,7 +175,7 @@ a:hover {
 
 .dropdown-menu {
     position: absolute;
-    top: 80px;
+    top: 49px;
     right: 0;
     z-index: 1000;
     display: none;
@@ -193,6 +194,7 @@ a:hover {
     border-radius: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
+    padding-top: 31px;
     
     .caret {
         color: @white;
@@ -567,8 +569,4 @@ ul {
 
 .show {
     display: block;
-}
-
-.show2 {
-    visibility: visible;
 }
