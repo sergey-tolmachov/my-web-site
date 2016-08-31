@@ -1,0 +1,547 @@
+/*Header*/
+
+.header-container {
+	position: fixed;
+	width: 100%;
+	height: 75px;
+	background-color: rgba(255, 255, 255, 0.7);
+	display: inline-block;
+	z-index: 1000000;
+	-webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.25);
+
+}
+
+
+.avatar-box {
+	position: absolute;
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	padding-left: 50px;
+
+}
+
+img.avatar {
+	border: 1px solid rgb(42, 42, 44);
+	border-radius: 1000px;
+	margin: 11px 0px;
+}
+
+.avatar {
+	margin: 0;
+	padding: 0;
+	width: 53px;
+	height: 53px;
+
+}
+
+.avatar-text {
+	margin: 17.5px 0px 17.5px 10px;
+	text-transform: uppercase;
+	font-family: "Muller-Regular";
+	font-size: 14px;
+	color: rgb(42, 42, 44);
+	position: absolute;
+	display: inline-block;
+}
+
+.header-menu-box {
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	width: 60%;
+	height: 100%;
+	left: 20%;
+}
+
+.header-menu {
+	margin: 0;
+    padding: 0px 0px 0px 0px;
+	display: inline-block;
+}
+
+.header-menu li {
+	padding: 0px 15px 0px 15px;
+}
+
+.header-menu li {
+	margin: 0;
+	display: inline-block;
+	height: 62px;
+}
+
+.header-menu a {
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgb(42, 42, 44);
+	font-size: 10px;
+	font-family: "Muller-Regular";
+	display: block;
+	padding-top: 12px;
+	height: 28px;
+
+}
+
+li:hover a {
+	color: rgb(215, 53, 52);
+}
+
+li:hover span {
+	color: rgb(215, 53, 52);
+}
+
+/*Icons on header*/
+
+.icon-menu {
+	font-size: 25px;
+	color: rgb(42, 42, 44);
+	display: none;
+	position: absolute;
+	right: 50px;
+	padding: 25px 0px 25px 0px;
+	position: fixed;
+}
+
+.icon-menu-focus {
+	font-size: 25px;
+	color: rgb(42, 42, 44);
+	display: block;
+	position: absolute;
+	right: 50px;
+	padding: 25px 0px 25px 0px;
+	position: fixed;
+}
+
+.icon-other:hover {
+	color: rgb(215, 53, 52);
+}
+.icon-contact:hover {
+	color: rgb(215, 53, 52);
+}
+.icon-frontend:hover {
+	color: rgb(215, 53, 52);
+}
+.icon-home:hover {
+	color: rgb(215, 53, 52);
+}
+.icon-logo:hover {
+	color: rgb(215, 53, 52);
+}
+.icon-ui:hover {
+	color: rgb(215, 53, 52);
+}
+.icon-web:hover {
+	color: rgb(215, 53, 52);
+}
+
+
+.icon-ui a {
+	font-family: "Muller-Medium";
+	color: rgb(215, 53, 52);
+}
+
+.current a {
+	color: rgb(215, 53, 52);;
+}
+
+.current a:focus {
+	color: rgb(215, 53, 52);;
+}
+
+.write-me-button-container {
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	height: 100%;
+	right: 0;
+	padding-right: 50px;
+}
+
+.write-me-button {
+	width: 145px;
+	height: 30px;
+	margin: 22.5px 0px;
+	border-radius: 2px;
+	border: 1px solid rgb(215, 53, 52);
+	transition: 0.35s;
+	position: absolute;
+	right: 50px;
+	background-color: rgba(0,0,0,0);
+
+}
+
+.write-me {
+	padding: 10px 40.5px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: "Muller-Regular";
+	line-height: 30px;
+	color: rgb(215, 53, 52);
+}
+
+.write-me:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.write-me-button:hover {
+	border-radius: 2px;
+	border: 1px solid rgb(215, 53, 52);
+	background-color: rgb(215, 53, 52);	
+}
+
+.write-me-button-container .btn-lg {
+	padding: 0;
+}
+
+.header-download-line {
+	width: 100%;
+	height: 3px;
+	background-color: rgb(42, 42, 44);
+    position: fixed;
+    transform: translateY(75px);
+    display: none;
+}
+
+/*Small Screen*/
+
+
+.fade-menu2 {
+	display: block;
+	height: 400px;
+}
+
+.header-menu-box2 {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    transform: translateY(75px);
+    height: 0;
+    background-color: #EEEEEE;
+    overflow: hidden;
+    -webkit-transition: height ease-out 0.3s;
+     -moz-transition: height ease-out 0.3s;
+     -o-transition: height ease-out 0.3s;
+     transition: height ease-out 0.3s;
+}
+
+.header-menu2 {
+    padding: 0;
+    display: block;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+
+.header-menu2 li {
+	display: block;
+	height: 50px;
+	border-bottom: 1px solid #BDBDBD;
+}
+
+.header-menu2 a {
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(42, 42, 44);
+    font-size: 10px;
+    font-family: "Muller-Light";
+    display: inline-block;
+    padding: 14.5px 110px 14.5px 110px;
+}
+
+.write-me-button2 {
+	background-color: rgb(215, 53, 52);
+}
+
+.write-me-button2 a {
+	color: white;
+}
+
+/*Forms*/
+
+@media (min-width: 768px) {
+	.modal-dialog {
+	    width: 600px;
+	    margin: 150px auto;
+	}
+}
+
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: rgb(88, 89, 93);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+	height: 40px;
+}
+
+.modal-footer {
+    border-top: none;
+    text-align: center;
+}
+
+.btn-send {
+	border: none;
+	border-radius: 2px;
+	width: 120px;
+	height: 40px;
+	background-color: rgb(40, 151, 212);
+	color: white;
+}
+
+.modal-title {
+	color: white;
+	font-family: "Muller-Regular";
+}
+
+.close {
+	color: white;
+	text-shadow: none;
+	opacity: 1;
+	margin-top: 0px;
+}
+
+.modal-backdrop.in {
+    opacity: .75;
+}
+
+textarea.form-control {
+    height: 100px;
+}
+
+.modal-content {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.modal-open .wrapper {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -ms-filter: blur(5px);
+    -o-filter: blur(5px);
+    filter: blur(5px);    
+}
+
+/*Portfolio*/
+
+
+.carousel-control {
+	width: 12%;
+}
+
+.carousel-indicators {
+    position: fixed;
+    margin-bottom: 0px;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    left: 30%;
+    background-color: transparent;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 17.5px 2.5px;
+    text-indent: -999px;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.active {
+	width: 100%;
+}
+
+.carousel-indicators .active {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 17.5px 2.5px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.15);
+}
+
+.carousel-indicators li:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+a:focus {
+	text-decoration: none;
+	color: white;
+}
+
+a:active {
+	text-decoration: none;
+	color: white;
+}
+
+@media screen and (max-width: 1120px) {
+	.header-menu-box {
+		display: none; /* скрыть все <li> пункты */
+	}
+
+	.write-me-button-container {
+		display: none;
+	}
+	
+
+	.header-menu2 a { /* увеличим размер шрифта меню */
+		font-size: 14px;
+	}
+
+
+	.icon-menu { /*покажем иконку меню*/
+		display: block;
+	}
+
+	.header-menu-box a {
+		display: block;
+		text-align: left;
+	}
+
+	.write-me-button {
+		display: none;
+	}
+
+	.header-menu-box ul {
+		left: auto;
+		right: 62.5px;
+	    padding: 37.5px 0px 37.5px 0px;
+	}
+
+	.header-download-line {
+		display: none;
+	}
+
+	.header-container {
+		height: 75px;
+	}
+
+
+	.fade-menu2 {
+		display: block;
+		height: 400px;
+	}
+
+	.carousel {
+		padding-top: 75px;
+	}
+
+}
+
+
+@media screen and (max-width: 540px) {
+
+	.icon-menu {
+	right: 30px;
+	}
+
+	.avatar-box {
+		padding-left: 30px;
+		width: 80%;
+	}
+
+	.carousel-indicators {
+	    margin-bottom: 0px;
+	}
+
+}
+
+
+@media screen and (max-width: 360px) {
+
+	.avatar-text {
+		display: none;
+	}
+
+}
+
+/*Fonts Embed*/
+
+@font-face {
+    font-family: "Muller-Light";
+    src: url(../font/Muller-Light.otf);
+}
+
+@font-face {
+	font-family: "Muller-Regular";
+	src: url(../font/Muller-Regular.otf);
+}
+
+@font-face {
+	font-family: "Muller-Medium";
+	src: url(../font/Muller-Medium.otf);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

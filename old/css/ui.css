@@ -1,0 +1,223 @@
+body {
+	background-color: rgb(237, 237, 237);
+}
+
+/*Icons on header*/
+
+.icon-home {
+	font-size: 25px;
+	color: rgb(42, 42, 44);
+	display: block;
+	padding-bottom: 13px;
+}
+
+.icon-ui {
+	font-size: 25px;
+	color: rgb(215, 53, 52);
+	display: block;
+	padding-bottom: 13px;
+}
+
+.icon-web {
+	font-size: 25px;
+	color: rgb(42, 42, 44);
+	display: block;
+	padding-bottom: 13px;
+}
+
+.icon-frontend {
+	font-size: 25px;
+	color: rgb(42, 42, 44);
+	display: block;	
+	padding-bottom: 13px;
+}
+
+.icon-logo {
+	font-size: 25px;
+	color: rgb(42, 42, 44);
+	display: block;
+	padding-bottom: 13px;
+}
+
+.icon-other {
+	font-size: 25px;
+	color: rgb(42, 42, 44);
+	display: block;
+	padding-bottom: 13px;
+}
+
+.icon-contact {
+	font-size: 25px;
+	color: rgb(42, 42, 44);
+	display: block;
+	padding-bottom: 13px;
+}
+
+/*Portfolio*/
+
+#carousel-example-generic {
+	width: 100%;
+}
+
+.carousel-inner {
+	height: 100%;
+}
+
+.item {
+	width: 100%;
+	text-align: center;
+}
+
+.my-slider01 {
+	display: block;
+	width: 100%;
+	height: 1080px;
+	background: url(../portfolio-preview/ui/01.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.my-slider02 {
+	display: block;
+	width: 100%;
+	height: 1080px;
+	background: url(../portfolio-preview/ui/02.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.my-slider03 {
+	display: block;
+	width: 100%;
+	height: 1080px;
+	background: url(../portfolio-preview/ui/03.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.my-slider04 {
+	display: block;
+	width: 100%;
+	height: 1080px;
+	background: url(../portfolio-preview/ui/04.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.my-slider05 {
+	display: block;
+	width: 100%;
+	height: 1080px;
+	background: url(../portfolio-preview/ui/05.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.my-slider06 {
+	display: block;
+	width: 100%;
+	height: 1080px;
+	background: url(../portfolio-preview/ui/06.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.my-slider07 {
+	display: block;
+	width: 100%;
+	height: 1080px;
+	background: url(../portfolio-preview/ui/07.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.my-slider08 {
+	display: block;
+	width: 100%;
+	height: 1080px;
+	background: url(../portfolio-preview/ui/08.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.my-slider09 {
+	display: block;
+	width: 100%;
+	height: 1080px;
+	background: url(../portfolio-preview/ui/09.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.item img {
+	width: 100%;
+	text-align: center;
+}
+
+.carousel {
+	padding-top: 0px;
+	background: rgb(255, 255, 255, 0);
+	position: absolute;
+	height: 100%;
+}
+
+.carousel-control {
+	width: 12%;
+}
+
+.carousel-control.left {
+    background-image: linear-gradient(to left, transparent 0px, rgba(0, 0, 0, 0.2) 100%);
+}
+
+.carousel-control.right {
+    background-image: linear-gradient(to right, transparent 0px, rgba(0, 0, 0, 0.2) 100%);
+}
+
+
+@media screen and (max-width: 1120px) {
+
+}
+
+@media screen and (max-width: 540px) {
+
+}
+
+
+@media screen and (max-width: 360px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

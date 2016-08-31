@@ -1,0 +1,153 @@
+body {
+	background-color: rgb(237, 237, 237);
+}
+
+/*Icons on header*/
+
+.icon-home {
+	font-size: 25px;
+	color: rgb(42, 42, 44);
+	display: block;
+	padding-bottom: 13px;
+}
+
+.icon-ui {
+	font-size: 25px;
+	color: rgb(42, 42, 44);
+	display: block;
+	padding-bottom: 13px;
+}
+
+.icon-web {
+	font-size: 25px;
+	color: rgb(42, 42, 44);
+	display: block;
+	padding-bottom: 13px;
+}
+
+.icon-frontend {
+	font-size: 25px;
+	color: rgb(215, 53, 52);
+	display: block;	
+	padding-bottom: 13px;
+}
+
+.icon-logo {
+	font-size: 25px;
+	color: rgb(42, 42, 44);
+	display: block;
+	padding-bottom: 13px;
+}
+
+.icon-other {
+	font-size: 25px;
+	color: rgb(42, 42, 44);
+	display: block;
+	padding-bottom: 13px;
+}
+
+.icon-contact {
+	font-size: 25px;
+	color: rgb(42, 42, 44);
+	display: block;
+	padding-bottom: 13px;
+}
+
+.item-title {
+	padding-top: 178px;
+	padding-left: 15%;
+	padding-right: 15%;
+	display: block;
+	color: rgb(42, 42, 44);
+	font-size: 26px;
+	font-family: "Muller-Medium";
+	text-align: center;
+}
+
+.item-dsc {
+	padding: 0% 15%;
+	padding-top: 15px;
+	display: block;
+	color: rgb(112, 113, 118);
+	font-size: 16px;
+	font-family: "Muller-Regular";
+	text-align: center;
+}
+
+.material-icons {
+	display: block;
+	font-size: 72px;
+	text-align: center;
+	padding-top: 75px;
+	color: rgb(112, 113, 118);
+}
+
+.work-icon {
+	display: block;
+	width: 72px;
+	text-align: center;
+	padding-top: 75px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1120px) {
+
+
+}
+
+
+
+@media screen and (max-width: 540px) {
+	.item-title {
+		padding-top: 125px;
+	}
+}
+
+
+@media screen and (max-width: 360px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
