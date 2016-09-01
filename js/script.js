@@ -46,3 +46,7 @@ $(window).scroll(function() {
         $(".header-container").addClass("fadeInDown");
     }
 });
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})

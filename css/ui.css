@@ -333,63 +333,55 @@ ul {
   display: block;
   width: 100%;
   height: 1080px;
-  background-color: lightgrey;
+  background-color: #e0e0e0;
 }
 .my-slider02 {
   display: block;
   width: 100%;
   height: 1080px;
-  background: url(../portfolio-preview/ui/02.jpg) no-repeat center center fixed;
-  background-size: cover;
+  background-color: #e0e0e0;
 }
 .my-slider03 {
   display: block;
   width: 100%;
   height: 1080px;
-  background: url(../portfolio-preview/ui/03.jpg) no-repeat center center fixed;
-  background-size: cover;
+  background-color: #e0e0e0;
 }
 .my-slider04 {
   display: block;
   width: 100%;
   height: 1080px;
-  background: url(../portfolio-preview/ui/04.jpg) no-repeat center center fixed;
-  background-size: cover;
+  background-color: #e0e0e0;
 }
 .my-slider05 {
   display: block;
   width: 100%;
   height: 1080px;
-  background: url(../portfolio-preview/ui/05.jpg) no-repeat center center fixed;
-  background-size: cover;
+  background-color: #e0e0e0;
 }
 .my-slider06 {
   display: block;
   width: 100%;
   height: 1080px;
-  background: url(../portfolio-preview/ui/06.jpg) no-repeat center center fixed;
-  background-size: cover;
+  background-color: #e0e0e0;
 }
 .my-slider07 {
   display: block;
   width: 100%;
   height: 1080px;
-  background: url(../portfolio-preview/ui/07.jpg) no-repeat center center fixed;
-  background-size: cover;
+  background-color: #e0e0e0;
 }
 .my-slider08 {
   display: block;
   width: 100%;
   height: 1080px;
-  background: url(../portfolio-preview/ui/08.jpg) no-repeat center center fixed;
-  background-size: cover;
+  background-color: #e0e0e0;
 }
 .my-slider09 {
   display: block;
   width: 100%;
   height: 1080px;
-  background: url(../portfolio-preview/ui/09.jpg) no-repeat center center fixed;
-  background-size: cover;
+  background-color: #e0e0e0;
 }
 .item img {
   width: auto;
