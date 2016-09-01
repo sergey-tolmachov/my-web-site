@@ -55,7 +55,7 @@ body {
   font-size: 16px;
   font-weight: 200;
   color: #ffffff;
-  color: #999999;
+  color: rgba(255, 255, 255, 0.6);
 }
 .header-container .logo-box .logo-text .blog-link {
   color: #ffffff;
@@ -238,10 +238,17 @@ a:focus {
   margin: 105px 15px 240px 15px;
   border-radius: 50%;
   text-align: center;
+  transition: all 0.35s;
 }
 .skills-container li img {
   display: none;
   margin: auto;
+}
+.skills-container li img:hover {
+  transform: scale(1.4);
+}
+.skills-container li:hover {
+  transform: scale(1.1);
 }
 .col-lg-1,
 .col-lg-10,
@@ -359,6 +366,16 @@ ul {
   height: 1080px;
   background-color: #e0e0e0;
 }
+.my-slider05 .preview {
+  position: absolute;
+  transform: translateX(-175px);
+  z-index: 10;
+}
+.my-slider05 .preview2 {
+  position: absolute;
+  transform: translateX(-150px) translateY(15px);
+  z-index: 0;
+}
 .my-slider06 {
   display: block;
   width: 100%;
@@ -371,26 +388,13 @@ ul {
   height: 1080px;
   background-color: #e0e0e0;
 }
-.my-slider08 {
-  display: block;
-  width: 100%;
-  height: 1080px;
-  background-color: #e0e0e0;
-}
-.my-slider09 {
-  display: block;
-  width: 100%;
-  height: 1080px;
-  background-color: #e0e0e0;
-}
 .item img {
   width: auto;
   text-align: center;
-  margin-top: 70px;
+  margin-top: 120px;
   -webkit-box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3);
-  transform: scale(0.85);
 }
 .carousel {
   padding-top: 0px;

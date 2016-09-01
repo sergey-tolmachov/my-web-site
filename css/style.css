@@ -55,7 +55,7 @@ body {
   font-size: 16px;
   font-weight: 200;
   color: #ffffff;
-  color: #999999;
+  color: rgba(255, 255, 255, 0.6);
 }
 .header-container .logo-box .logo-text .blog-link {
   color: #ffffff;

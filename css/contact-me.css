@@ -55,7 +55,7 @@ body {
   font-size: 16px;
   font-weight: 200;
   color: #ffffff;
-  color: #999999;
+  color: rgba(255, 255, 255, 0.6);
 }
 .header-container .logo-box .logo-text .blog-link {
   color: #ffffff;
@@ -238,10 +238,17 @@ a:focus {
   margin: 105px 15px 240px 15px;
   border-radius: 50%;
   text-align: center;
+  transition: all 0.35s;
 }
 .skills-container li img {
   display: none;
   margin: auto;
+}
+.skills-container li img:hover {
+  transform: scale(1.4);
+}
+.skills-container li:hover {
+  transform: scale(1.1);
 }
 .col-lg-1,
 .col-lg-10,
