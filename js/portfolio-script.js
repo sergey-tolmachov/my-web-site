@@ -4,6 +4,10 @@ $('.dropdown-hover-item').hover(function() {
   $('.dropdown-menu').fadeOut(450);
 });
 
+$('.dropdown-hover-item').hover(function() {
+  $(".header-container").toggleClass("header-big");
+});
+
 $(document).ready(function() {
   $(".header-container").addClass("animated fadeInDown");
 });
