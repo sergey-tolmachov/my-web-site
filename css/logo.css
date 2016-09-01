@@ -448,70 +448,92 @@ ul {
   /* ie6-9 */
 }
 /*Portfolio*/
+#carousel-example-generic {
+  width: 100%;
+}
+.carousel-inner {
+  height: 100%;
+}
+.item {
+  width: 100%;
+  text-align: center;
+}
 .my-slider01 {
   display: block;
   width: 100%;
   height: 1080px;
-  padding-bottom: 115px;
-  padding-top: 125px;
+  background: url(../portfolio-preview/logo/01.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 .my-slider02 {
   display: block;
   width: 100%;
   height: 1080px;
-  padding-bottom: 115px;
-  padding-top: 125px;
+  background: url(../portfolio-preview/logo/02.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 .my-slider03 {
   display: block;
   width: 100%;
   height: 1080px;
-  padding-bottom: 115px;
-  padding-top: 125px;
+  background: url(../portfolio-preview/logo/03.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 .my-slider04 {
   display: block;
   width: 100%;
   height: 1080px;
-  padding-bottom: 115px;
-  padding-top: 125px;
+  background: url(../portfolio-preview/logo/04.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
-.item .preview {
+.my-slider05 {
   display: block;
-  width: 960px;
+  width: 100%;
+  height: 1080px;
+  background: url(../portfolio-preview/logo/05.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.my-slider06 {
+  display: block;
+  width: 100%;
+  height: 1080px;
+  background: url(../portfolio-preview/logo/06.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.my-slider07 {
+  display: block;
+  width: 100%;
+  height: 1080px;
+  background: url(../portfolio-preview/logo/07.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.my-slider08 {
+  display: block;
+  width: 100%;
+  height: 1080px;
+  background: url(../portfolio-preview/logo/08.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.item img {
+  width: auto;
+  text-align: center;
+  margin-top: 120px;
   -webkit-box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3);
-  margin: auto;
-  border-radius: 5px;
-  background-color: transparent;
 }
-.item .preview-header {
-  margin: auto;
-  z-index: 3;
+.carousel {
+  padding-top: 0px;
+  background: #ffffff;
+  position: absolute;
+  height: 100%;
 }
-.item .preview-box {
-  display: block;
-  margin: 0px auto;
-  width: 960px;
-  height: 540px;
-  background-color: white;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  overflow: scroll;
-  z-index: 1;
+.carousel-control {
+  width: 12%;
 }
-.item .preview-box img {
-  width: 100%;
-  text-align: center;
-  margin-top: auto;
+.carousel-control.left {
+  background-image: none;
 }
-.help {
-  padding-top: 30px;
-  display: block;
-  color: #707176;
-  font-size: 20px;
-  font-family: 'Lato', sans-serif;
-  color: #424242;
-  font-weight: 200;
+.carousel-control.right {
+  background-image: none;
 }

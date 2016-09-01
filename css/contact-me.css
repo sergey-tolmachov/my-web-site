@@ -327,14 +327,6 @@ ul {
   background: #424242;
   border: solid 1px #424242;
 }
-html {
-  height: 100%;
-}
-body {
-  height: 100%;
-  background: url(../img/big-avatar-bg.jpg) no-repeat center top;
-  background-size: cover;
-}
 .header-container {
   background: -moz-linear-gradient(270deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
   /* ff3.6+ */
@@ -350,6 +342,118 @@ body {
   /* w3c */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff', GradientType=0);
   /* ie6-9 */
+}
+/*Portfolio*/
+#carousel-example-generic {
+  width: 100%;
+}
+.carousel-inner {
+  height: 100%;
+}
+.item {
+  width: 100%;
+  text-align: center;
+}
+.my-slider01 {
+  display: block;
+  width: 100%;
+  height: 1080px;
+  background-color: #e0e0e0;
+}
+.my-slider02 {
+  display: block;
+  width: 100%;
+  height: 1080px;
+  background-color: #e0e0e0;
+}
+.my-slider03 {
+  display: block;
+  width: 100%;
+  height: 1080px;
+  background-color: #e0e0e0;
+}
+.my-slider04 {
+  display: block;
+  width: 100%;
+  height: 1080px;
+  background-color: #e0e0e0;
+}
+.my-slider05 {
+  display: block;
+  width: 100%;
+  height: 1080px;
+  background-color: #e0e0e0;
+}
+.my-slider05 .preview {
+  position: absolute;
+  transform: translateX(-175px);
+  z-index: 10;
+}
+.my-slider05 .preview2 {
+  position: absolute;
+  transform: translateX(-150px) translateY(15px);
+  z-index: 0;
+}
+.my-slider06 {
+  display: block;
+  width: 100%;
+  height: 1080px;
+  background-color: #e0e0e0;
+}
+.my-slider07 {
+  display: block;
+  width: 100%;
+  height: 1080px;
+  background-color: #e0e0e0;
+}
+.item img {
+  width: auto;
+  text-align: center;
+  margin-top: 120px;
+  -webkit-box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3);
+}
+.carousel {
+  padding-top: 0px;
+  background: #ffffff;
+  position: absolute;
+  height: 100%;
+}
+.carousel-control {
+  width: 12%;
+}
+.carousel-control.left {
+  background-image: none;
+}
+.carousel-control.right {
+  background-image: none;
+}
+.header-big {
+  height: 290px;
+  transition: all 0.35s;
+  background: -moz-linear-gradient(270deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+  /* ff3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.4)), color-stop(100%, rgba(0, 0, 0, 0)));
+  /* safari4+,chrome */
+  background: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+  /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(270deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+  /* opera 11.10+ */
+  background: -ms-linear-gradient(270deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+  /* ie10+ */
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+  /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff', GradientType=0);
+  /* ie6-9 */
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background: url(../img/big-avatar-bg.jpg) no-repeat center top;
+  background-size: cover;
 }
 .gradient-bg {
   display: block;
@@ -524,22 +628,4 @@ body {
 }
 .form-control:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
-}
-.header-big {
-  height: 330px;
-  transition: all 0.35s;
-  background: -moz-linear-gradient(270deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
-  /* ff3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.4)), color-stop(100%, rgba(0, 0, 0, 0)));
-  /* safari4+,chrome */
-  background: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
-  /* safari5.1+,chrome10+ */
-  background: -o-linear-gradient(270deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
-  /* opera 11.10+ */
-  background: -ms-linear-gradient(270deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
-  /* ie10+ */
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
-  /* w3c */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff', GradientType=0);
-  /* ie6-9 */
 }
