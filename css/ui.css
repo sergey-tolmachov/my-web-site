@@ -430,7 +430,7 @@ ul {
   background-image: none;
 }
 .header-big {
-  height: 350px;
+  height: 330px;
   transition: all 0.35s;
   background: -moz-linear-gradient(270deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
   /* ff3.6+ */

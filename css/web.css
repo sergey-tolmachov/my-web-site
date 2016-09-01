@@ -430,7 +430,7 @@ ul {
   background-image: none;
 }
 .header-big {
-  height: 350px;
+  height: 330px;
   transition: all 0.35s;
   background: -moz-linear-gradient(270deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
   /* ff3.6+ */
@@ -483,6 +483,8 @@ ul {
   -moz-box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3);
   margin: auto;
+  border-radius: 5px;
+  background-color: transparent;
 }
 .item .preview-header {
   margin: auto;
@@ -508,7 +510,7 @@ ul {
   padding-top: 30px;
   display: block;
   color: #707176;
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Lato', sans-serif;
   color: #424242;
   font-weight: 200;
