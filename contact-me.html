@@ -9,6 +9,7 @@
     <!--Fonts-->
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 	
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/contact-me.css">
 
 	<title>Sergey Tolmachov</title>
@@ -31,11 +32,11 @@
         </div>
         <nav>
             <li><a href="index.html">home</a></li>
-            <li>
+            <li class="dropdown-hover-item">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">portfolio</a>
                 <span class="caret"></span>
                 <ul class="dropdown-menu" role="menu">
-                  <li class="drop-item"><a href="#">ui design</a></li>
+                  <li class="drop-item"><a href="ui.html">ui design</a></li>
                   <li class="drop-item"><a href="#">ux design</a></li>
                   <li class="drop-item"><a href="#">web design</a></li>
                   <li class="drop-item"><a href="#">front-end</a></li>
@@ -77,6 +78,13 @@
 	<script src="js/script.js"></script>
 
 	<script>
+        $('.dropdown-hover-item').hover(function() {
+          $(".header-container").toggleClass("header-big");
+        });
+        
+        $(document).ready(function() {
+          $(".header-container").addClass("animated fadeInDown");
+        });
 	</script>
 
 </body>

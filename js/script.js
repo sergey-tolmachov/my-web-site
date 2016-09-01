@@ -4,6 +4,7 @@ $('.dropdown-hover-item').hover(function() {
   $('.dropdown-menu').fadeOut(450);
 });
 
+
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
@@ -13,6 +14,8 @@ $(window).scroll(function() {
     }
 });
 
+
+
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
@@ -21,11 +24,6 @@ $(window).scroll(function() {
     }
 });
 
-
-//$(window).ready(function() {
-//    $(".right-box").addClass("animated rotateIn");
-//    }
-//});
 
 
 $(window).scroll(function() {    
@@ -46,6 +44,8 @@ $(window).scroll(function() {
         $(".header-container").addClass("fadeInDown");
     }
 });
+
+
 
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
