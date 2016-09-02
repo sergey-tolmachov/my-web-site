@@ -9,8 +9,9 @@ $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll >= 310) {
-        $(".text-box").addClass("animated fadeInLeft show");
-        $(".video-box").addClass("animated fadeInRight show");
+        $(".about-me-container").addClass("show2");
+        $(".text-box").addClass("animated fadeInLeft");
+        $(".video-box").addClass("animated fadeInRight");
     }
 });
 

@@ -238,9 +238,10 @@ a:focus {
     width: 100%;
     height: auto;
     padding-top: 120px;
+    visibility: hidden;
     
     .text-box {
-        display: none;
+        display: block;
         .about-me-title {
             padding-left: @padding;
             .title
@@ -255,7 +256,7 @@ a:focus {
     }
     
     .video-box {
-        display: none;
+        display: block;
         padding-left: 120px;
         padding-right: @padding;
         
@@ -315,6 +316,10 @@ ul {
     display: block;
 }
 
+.show2 {
+    visibility: visible;
+}
+
 
 .tooltip.bottom .tooltip-arrow {
   top: 20px;
@@ -334,3 +339,79 @@ ul {
     background: @dark-grey;
     border: solid 1px @dark-grey;
 }
+
+
+@media screen and (max-width: 1150px) {
+
+    .skills-container {
+        display: none;
+    }
+
+    .about-me-container {
+        
+        .text-box {
+            padding-right: @padding;
+            padding-left: @padding;
+            
+            .about-me-text {
+                padding-left: 0px;
+            }
+
+            .about-me-title {
+                padding-left: 0px;
+            }
+        }
+
+        .video-box {
+            padding-left: @padding;
+            padding-bottom: 120px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+
+    .header-container {
+
+        .logo-box {
+            width: auto;
+            height: 80px;
+            padding-left: @padding;
+
+            .logo {
+                display: inline-block;
+            }
+
+            .logo-text {
+                display: none;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 445px) {
+
+    .header-container {
+
+        .logo-box {
+            display: none;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

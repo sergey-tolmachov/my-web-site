@@ -184,9 +184,10 @@ a:focus {
   width: 100%;
   height: auto;
   padding-top: 120px;
+  visibility: hidden;
 }
 .about-me-container .text-box {
-  display: none;
+  display: block;
 }
 .about-me-container .text-box .about-me-title {
   padding-left: 60px;
@@ -205,7 +206,7 @@ a:focus {
   color: #424242;
 }
 .about-me-container .video-box {
-  display: none;
+  display: block;
   padding-left: 120px;
   padding-right: 60px;
 }
@@ -304,6 +305,9 @@ ul {
 .show {
   display: block;
 }
+.show2 {
+  visibility: visible;
+}
 .tooltip.bottom .tooltip-arrow {
   top: 20px;
   left: 50%;
@@ -320,6 +324,43 @@ ul {
   color: #ffffff;
   background: #424242;
   border: solid 1px #424242;
+}
+@media screen and (max-width: 1150px) {
+  .skills-container {
+    display: none;
+  }
+  .about-me-container .text-box {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .about-me-container .text-box .about-me-text {
+    padding-left: 0px;
+  }
+  .about-me-container .text-box .about-me-title {
+    padding-left: 0px;
+  }
+  .about-me-container .video-box {
+    padding-left: 60px;
+    padding-bottom: 120px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .header-container .logo-box {
+    width: auto;
+    height: 80px;
+    padding-left: 60px;
+  }
+  .header-container .logo-box .logo {
+    display: inline-block;
+  }
+  .header-container .logo-box .logo-text {
+    display: none;
+  }
+}
+@media screen and (max-width: 445px) {
+  .header-container .logo-box {
+    display: none;
+  }
 }
 html {
   height: 100%;
@@ -501,6 +542,44 @@ body {
 .form-control:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
+@media screen and (max-width: 1335px) {
+  .gradient-bg {
+    height: 1380px;
+  }
+  .right-box {
+    display: block;
+    width: 100%;
+    padding-top: 120px;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .left-box {
+    display: block;
+    width: 100%;
+    padding-top: 120px;
+  }
+  .left-box img {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .header-container .logo-box {
+    width: auto;
+    height: 80px;
+    padding-left: 60px;
+  }
+  .header-container .logo-box .logo {
+    display: inline-block;
+  }
+  .header-container .logo-box .logo-text {
+    display: none;
+  }
+}
+@media screen and (max-width: 445px) {
+  .header-container .logo-box {
+    display: none;
+  }
+}
 .header-container {
   background: -moz-linear-gradient(270deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 100%);
   /* ff3.6+ */
@@ -621,6 +700,32 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff', GradientType=0);
   /* ie6-9 */
 }
+@media screen and (max-width: 650px) {
+  .gradient-bg {
+    height: 100%;
+  }
+  .header-container .logo-box {
+    width: auto;
+    height: 80px;
+    padding-left: 60px;
+  }
+  .header-container .logo-box .logo {
+    display: inline-block;
+  }
+  .header-container .logo-box .logo-text {
+    display: none;
+  }
+  .item img {
+    width: 55%;
+    text-align: center;
+    margin-top: 120px;
+  }
+}
+@media screen and (max-width: 445px) {
+  .header-container .logo-box {
+    display: none;
+  }
+}
 /*Portfolio*/
 #carousel-example-generic {
   width: 100%;
@@ -710,4 +815,22 @@ body {
 }
 .carousel-control.right {
   background-image: none;
+}
+@media screen and (max-width: 650px) {
+  .header-container .logo-box {
+    width: auto;
+    height: 80px;
+    padding-left: 60px;
+  }
+  .header-container .logo-box .logo {
+    display: inline-block;
+  }
+  .header-container .logo-box .logo-text {
+    display: none;
+  }
+}
+@media screen and (max-width: 445px) {
+  .header-container .logo-box {
+    display: none;
+  }
 }

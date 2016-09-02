@@ -130,3 +130,62 @@
     background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%); /* w3c */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=0 ); /* ie6-9 */
 }
+
+
+
+@media screen and (max-width: 650px) {
+
+    .gradient-bg {
+        height: 100%;
+    }
+    
+    .header-container {
+
+        .logo-box {
+            width: auto;
+            height: 80px;
+            padding-left: @padding;
+
+            .logo {
+                display: inline-block;
+            }
+
+            .logo-text {
+                display: none;
+            }
+        }
+    }
+    
+    .item {    
+        img {
+            width: 55%;
+            text-align: center;
+            margin-top: 120px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 445px) {
+
+    .header-container {
+
+        .logo-box {
+            display: none;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
