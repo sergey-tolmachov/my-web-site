@@ -5,7 +5,7 @@ $('.dropdown-hover-item').hover(function() {
 });
 
 
-$('.dropdown-hover-item').hover(function() {
+$('.header-container').hover(function() {
   $(".header-container").toggleClass("header-big");
 });
 

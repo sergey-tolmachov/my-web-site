@@ -245,12 +245,6 @@ a:focus {
   display: none;
   margin: auto;
 }
-.skills-container li img:hover {
-  transform: scale(1.4);
-}
-.skills-container li:hover {
-  transform: scale(1.1);
-}
 .col-lg-1,
 .col-lg-10,
 .col-lg-11,
