@@ -12,13 +12,13 @@ body {
 .text-white {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 300;
   color: #ffffff;
 }
 .text-grey {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 300;
   color: #424242;
 }
 .header-container {
@@ -54,7 +54,7 @@ body {
   float: right;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 300;
   color: #ffffff;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -80,7 +80,7 @@ body {
   transition: all 0.175s;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 300;
   color: #ffffff;
 }
 .header-container nav li a:hover {
@@ -111,7 +111,7 @@ body {
   padding: 15px 40px 0px 40px;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 300;
   color: #ffffff;
 }
 .cover-container .linkedin-btn {
@@ -126,7 +126,7 @@ body {
   transition: all 0.175s;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 300;
   color: #ffffff;
 }
 .cover-container .linkedin-btn:hover {
@@ -202,7 +202,7 @@ a:focus {
   padding-top: 30px;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 300;
   color: #424242;
 }
 .about-me-container .video-box {
@@ -210,11 +210,12 @@ a:focus {
   padding-left: 120px;
   padding-right: 60px;
 }
-.about-me-container .video-box iframe {
+.about-me-container .video-box .temroary-pic {
   display: block;
   width: 100%;
   height: 320px;
-  margin-top: 82px;
+  background: url(../img/temporary.jpg) no-repeat center center;
+  background-size: cover;
 }
 .skills-container {
   display: block;
@@ -320,7 +321,7 @@ ul {
   letter-spacing: 0.5px;
   font-family: 'Lato', sans-serif;
   font-size: 12px;
-  font-weight: 200;
+  font-weight: 300;
   color: #ffffff;
   background: #424242;
   border: solid 1px #424242;
@@ -360,6 +361,16 @@ ul {
 @media screen and (max-width: 445px) {
   .header-container .logo-box {
     display: none;
+  }
+  .header-container nav {
+    float: none;
+    padding-right: 0;
+  }
+  .cover-container {
+    padding-top: 160px;
+  }
+  .cover-container .cover-title {
+    padding: 0;
   }
 }
 html {
@@ -469,7 +480,7 @@ body {
   transition: all 0.175s;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 300;
   color: #ffffff;
 }
 .left-box .social-btn:hover {
@@ -500,7 +511,7 @@ body {
   background-color: transparent;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 300;
   color: #ffffff;
   box-shadow: none;
   padding-left: 0;
@@ -523,7 +534,7 @@ body {
   transition: all 0.175s;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 300;
   color: #ffffff;
 }
 .right-box form .btn-send:hover {
@@ -562,22 +573,10 @@ body {
     margin-top: 0px;
   }
 }
-@media screen and (max-width: 650px) {
-  .header-container .logo-box {
-    width: auto;
-    height: 80px;
-    padding-left: 60px;
-  }
-  .header-container .logo-box .logo {
-    display: inline-block;
-  }
-  .header-container .logo-box .logo-text {
-    display: none;
-  }
-}
 @media screen and (max-width: 445px) {
-  .header-container .logo-box {
-    display: none;
+  .left-box img {
+    width: 80%;
+    height: auto;
   }
 }
 .header-container {
@@ -704,26 +703,10 @@ body {
   .gradient-bg {
     height: 100%;
   }
-  .header-container .logo-box {
-    width: auto;
-    height: 80px;
-    padding-left: 60px;
-  }
-  .header-container .logo-box .logo {
-    display: inline-block;
-  }
-  .header-container .logo-box .logo-text {
-    display: none;
-  }
   .item img {
     width: 55%;
     text-align: center;
     margin-top: 120px;
-  }
-}
-@media screen and (max-width: 445px) {
-  .header-container .logo-box {
-    display: none;
   }
 }
 /*Portfolio*/
@@ -815,22 +798,4 @@ body {
 }
 .carousel-control.right {
   background-image: none;
-}
-@media screen and (max-width: 650px) {
-  .header-container .logo-box {
-    width: auto;
-    height: 80px;
-    padding-left: 60px;
-  }
-  .header-container .logo-box .logo {
-    display: inline-block;
-  }
-  .header-container .logo-box .logo-text {
-    display: none;
-  }
-}
-@media screen and (max-width: 445px) {
-  .header-container .logo-box {
-    display: none;
-  }
 }

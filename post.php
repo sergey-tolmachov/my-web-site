@@ -70,10 +70,10 @@ mail("$adminemail", "$date $time Сообщение
 // Выводим сообщение пользователю 
  
 print "<script language='Javascript'><!-- 
-function reload() {location = \"$backurl\"}; setTimeout('reload()', 2000); 
+function reload() {location = \"$backurl\"}; setTimeout('reload()', 3000); 
 //--></script>  
  
-<p>Success!Please, wait a few second...</p>";  
+<p>Success!Your message have been sent. Please, wait a few second...</p>";  
 exit; 
  
  } 

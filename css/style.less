@@ -18,7 +18,7 @@
 @titleWeight: 700;
 
 @textSize: 16px;
-@textWeight: 200;
+@textWeight: 300;
 
 @padding: 60px;
 
@@ -260,11 +260,19 @@ a:focus {
         padding-left: 120px;
         padding-right: @padding;
         
-        iframe {
+//        iframe {
+//            display: block;
+//            width: 100%;
+//            height: 320px;
+//            margin-top: 82px;
+//        }
+        
+        .temroary-pic {
             display: block;
             width: 100%;
             height: 320px;
-            margin-top: 82px;
+            background: url(../img/temporary.jpg) no-repeat center center;
+            background-size: cover;
         }
     }
 }
@@ -397,6 +405,19 @@ ul {
 
         .logo-box {
             display: none;
+        }
+        
+        nav {
+            float: none;
+            padding-right: 0;
+        }
+    }
+    
+    .cover-container {
+        padding-top: 160px;
+        
+        .cover-title {
+            padding: 0;
         }
     }
 }
