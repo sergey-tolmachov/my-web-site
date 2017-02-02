@@ -51,3 +51,56 @@ $(window).scroll(function() {
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
+
+
+
+
+
+
+
+
+
+$(window).ready(function() {    
+    $(".post-title").addClass("animated fadeInLeft show-it");
+    
+    $(".main-text").delay(200).queue(function(){
+        $(".main-text").addClass("animated fadeInLeft show-it");
+        $(".main-text").dequeue();
+    });
+    
+    $(".graphic-content-box").delay(200).queue(function(){
+        $(".graphic-content-box").addClass("animated fadeInLeft show-it");
+        $(".graphic-content-box").dequeue();
+    });
+    
+    $(".active-btn").delay(670).queue(function(){
+        $(".active-btn").addClass("animated fadeIn show-it");
+        $(".active-btn").dequeue();
+    });
+    
+    $(".scroll-down").delay(1400).queue(function(){
+        $(".scroll-down").addClass("animated fadeInUp show-it");
+        $(".scroll-down").dequeue();
+    });
+});
+
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 10) {
+        $(".post-title").addClass("fadeOutLeft hide-it");
+    }
+    
+    else {
+        $(".post-title").removeClass("fadeOutLeft hide-it");
+        $(".post-title").addClass("fadeInLeft");
+    }
+});
+
+
+$('.scroll-down').hover(function() {
+  $(".post-title").addClass("fadeOutLeft hide-it");
+});
+
+
