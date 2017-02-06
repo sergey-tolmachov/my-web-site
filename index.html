@@ -10,7 +10,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
 	
 	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css?v=0.0.1">
 
 	<title>Product Designer - Sergey Tolmachov</title>
 
@@ -29,11 +29,21 @@
         <span class="icon"></span>
     </div>
 
+<!--
     <div class="slider-container">
-        <span class="slider-item current-slider-item"></span>
-        <span class="slider-item"></span>
-        <span class="slider-item"></span>
-        <span class="slider-item"></span>
+        <span class="slider-item current-slider-item slide" data-anchor="slide1"></span>
+        <span class="slider-item" data-anchor="slide2"></span>
+        <span class="slider-item" data-anchor="slide3"></span>
+        <span class="slider-item" data-anchor="slide4"></span>
+    </div>
+-->
+    <div class="slider-container">
+        <ul id="myMenu">
+            <li data-menuanchor="firstPage" class="active slider-item"><a href="#firstPage"></a></li>
+            <li data-menuanchor="secondPage" class="slider-item"><a href="#secondPage"></a></li>
+            <li data-menuanchor="thirdPage" class="slider-item"><a href="#thirdPage"></a></li>
+            <li data-menuanchor="fourthPage" class="slider-item"><a href="#fourthPage"></a></li>
+        </ul>
     </div>
     
     <div class="social-container">
@@ -46,29 +56,55 @@
         <span class="secondary-text scroll-down">scroll down</span>
     </div>
     
-    <!--Content-->
-    <div class="content-wrapper">
-        <!--Welcome block-->
-        <div class="info-box">
-            <span class="post-title">
-                Hi there!
-                <br>
-                My name is
-                <br>
-                Sergey Tolmachov
-            </span>
+       
+    <ul>
+        <li class="welcome content-block active-block">  
+            <div class="info-box">
+                <span class="post-title">
+                    Hi there!
+                    <br>
+                    My name is
+                    <br>
+                    Sergey Tolmachov
+                </span>
 
-            <span class="main-text">
-                If you want to move your life ahead, you should replace the negatives in your life with positives.
-            </span>
-            
-            <span class="active-btn">watch video</span>
-        </div>
+                <span class="main-text">
+                    If you want to move your life ahead, you should replace the negatives in your life with positives.
+                </span>
+
+                <span class="active-btn">watch video</span>
+            </div>
+
+            <div class="graphic-content-box"></div>
+        </li>
         
-        <div class="graphic-content-box">
+        <li class="portfolio content-block">
+            <div class="graphic-content-box"></div>
             
-        </div>
-    </div>
+            <div class="info-box">
+                <span class="post-title">
+                    This is exactly
+                    <br>
+                    what
+                    <br>
+                    are you looking for
+                </span>
+
+                <span class="main-text">
+                    If you want to move your life ahead, you should replace the negatives in your life with positives. This article will show you how to take the negative influences in your life away and replace them with positives, so you will have increases in morale, and productivity. 
+                </span>
+
+                <span class="active-btn">open portfolio</span>
+            </div>
+        </li>
+    </ul>
+    
+    <div class="trick"></div>
+    
+    
+    
+    
+    
     
     
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

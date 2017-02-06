@@ -10,6 +10,15 @@
 
 @secondary-color: #ffffff;
     
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
 .screen-title {
     font-family: @font-family;
     font-weight: 400;
@@ -145,12 +154,31 @@
 
 .slider-container {
     display: inline-block;
-    position: absolute;
+    position: fixed;
     width: 56px;
     height: 100%;
     background-color: @secondary-color;
-    padding-top: 20%;
+    vertical-align: middle;
     z-index: 10;
+    padding-top: 20%;
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        
+        li {
+            
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        
+        .active {
+            background-color: @dark-grey;
+        }
+    }
 }
 
 .social-container {
@@ -183,14 +211,25 @@
     text-align: center;
     z-index: 10;
     
-    .scroll-down {
-        opacity: 0;
+//    .scroll-down {
+//        opacity: 1;
+//    }
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: relative;
+    
+    .active-block {
+        display: block;
     }
 }
 
-.content-wrapper {
-    display: block;
-    position: relative;
+.content-block {
+    display: none;
+    position: absolute;
     width: 100%;
     height: 100%;
     padding-left: 56px;
@@ -201,41 +240,72 @@
         display: inline-block;
         width: 37%;
         height: 100%;
-        padding: 268px 32px 32px 32px;
+        padding: 0px 32px;
+        padding-top: 200px;
         z-index: 2;
         
         .post-title {
             display: block;
             position: absolute;
+            height: auto;
             z-index: 5;
-            opacity: 0;
         }
         
         .main-text {
             display: block;
-            padding-top: 208px;
-            opacity: 0;
+            margin-top: 208px;
         }
         
         .active-btn {
             display: inline-block;
             margin-top: 32px;
-            opacity: 0;
         }
     }
     
     .graphic-content-box {
         display: inline-block;
-        position: absolute;
         width: 63%;
         height: 100%;
-        background: url(../img/big-part.png) center center no-repeat;
-        background-size: cover;
         z-index: 1;
-        opacity: 0;
+        float: right;
     }
 }
 
+.welcome {
+    .info-box {
+    
+    }
+    
+    .graphic-content-box {
+        background: url(../img/big-part.png) center center no-repeat;
+        background-size: cover;
+    }
+}
+
+.portfolio {
+    .info-box {
+        .post-title {
+            right: 88px;
+        }
+    }
+    
+    .graphic-content-box {
+        background: url(../img/portfolio-block.png) center center no-repeat;
+        background-size: cover;
+        float: left;
+    }
+}
+
+
+
+
+
+
+.trick {
+    display: 100%;
+    height: 10px;
+    background-color: transparent;
+}
 
 
 
